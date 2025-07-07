@@ -1,5 +1,5 @@
 # This workflow will do a clean installation of node dependencies, cache/restore them, build the source on version 16 of node
-name: Deploying React app
+name: Deploying Vue app
 
 on:
   # Runs on pushes targeting the default branch (master)
@@ -26,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
@@ -34,20 +34,18 @@ jobs:
           author_email: actions@github.com
           message: Update vite.config value
       - name: Setup Pages
-        uses: actions/configure-pages@v2
-      - name: Use Node.js 16.x
-        uses: actions/setup-node@v3
+        uses: actions/configure-pages@v4
+      - name: Use Node.js 20.x
+        uses: actions/setup-node@v4
         with:
-          node-version: 16.x
+          node-version: 20.x
           cache: 'npm'
       - name: npm install + npm run build
         run: |
           npm ci
           npm run build --if-present
-        env: 
-            CI: ""
       - name: Upload artifact to gh-pages
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           name: github-pages
           path: ./dist
@@ -62,4 +60,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
