@@ -1,0 +1,52 @@
+html, body, #root {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  direction: rtl;
+  font-size: calc(10px + 0.5vw);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  max-width: 450px;
+  overflow: hidden;
+  position: relative;
+}
+
+.app {
+  background-color: #FEECD8;
+  width: 100%;
+  max-width: 450px;
+  font-family: 'askim';
+}
+
+.bahad-symbols {
+  position: absolute;
+  display: flex;
+  top: 0.2rem;
+  left: 0rem;
+}
+
+.symbol {
+  margin: 0.2rem;
+}
+
+.til-logo {
+  position: absolute;
+  bottom: 0.2rem;
+  right: 1.5rem;
+}
+
+@font-face {
+  font-family: askim;
+  src: url('/src/assets/fonts/askim/asakim_bold-webfont.ttf');
+}
+
+@font-face {
+  font-family: assistant;
+  src: url('/src/assets/fonts/assistant/Assistant-Regular.ttf');
+}
+
+@font-face {
+  font-family: assistant-bold;
+  src: url('/src/assets/fonts/assistant/Assistant-Bold.ttf');
+}

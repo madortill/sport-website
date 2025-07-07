@@ -1,0 +1,9 @@
+{
+    "stadiumButtons": [
+        {"text": "אימונים", "icon": "exercise"},
+        {"text": "מידע", "icon": "info"},
+        {"text": "הוראות למפקד", "icon": "instructions"},
+        {"text": "מבחנים", "icon": "test"},
+        {"text": "מתקנים", "icon": "facilities"}
+    ]
+}

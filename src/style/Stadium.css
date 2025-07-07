@@ -1,0 +1,16 @@
+.stadium-img {
+    position: relative;
+    top: 14rem;
+    width: 78%;
+}
+
+/* .stadium {
+    height: 60%;
+    width: 90%;
+    background-size: 100% 100%;
+    background-image: url(../assets/images/stadium-img.svg);
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+} */
