@@ -5,7 +5,7 @@ import roundButtonData from "../data/roundButtonData.json";
 function RoundButton({groupName}) {
   const buttons = roundButtonData[groupName];
   if (!Array.isArray(buttons)) {
-    return <p>לא נמצאו כפתורים עבור הקבוצה "{groupName}"</p>;
+    return <p>לא נמצאו כפתורים עבור הקבוצה"{groupName}"</p>;
   }
 
   return (
