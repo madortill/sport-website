@@ -4,6 +4,6 @@
         {"text": "מידע", "icon": "info"},
         {"text": "הוראות למפקד", "icon": "instructions"},
         {"text": "מבחנים", "icon": "test"},
-        {"text": "מתקנים", "icon": "facilities"}
+        {"text": " מתקנים", "icon": "facilities"}
     ]
 }
