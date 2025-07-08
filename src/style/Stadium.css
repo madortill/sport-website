@@ -4,21 +4,21 @@
     right: 50%;
     transform: translateX(50%);
     width: 80%;
-    max-width: 400px;
+    max-width: 350px;
 }
 
 .roundButtons {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, auto);
-    gap: 2rem 13%;
+    gap: 4% 14%;
     width: 100%;
     max-width: 450px;
     margin: 0 auto;
     justify-items: center;
     align-items: center;
     position: absolute;
-    top: 10rem;
+    top: 8rem;
     right: 50%;
     transform: translateX(50%);
 }

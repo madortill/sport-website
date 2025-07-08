@@ -10,7 +10,7 @@
     font-size: 3.5rem;
     color: #9C4534;
     position: relative;
-    top: 14rem;
+    top: 12rem;
 }
 
 .about-btn {
@@ -72,7 +72,7 @@
     font-size: 2rem;
     padding: 1rem;
     position: relative;
-    top: 59%;
+    top: 57%;
 }
 
 @media (max-width: 550px) {
