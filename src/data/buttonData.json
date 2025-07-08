@@ -18,5 +18,26 @@
         {"text": "נחשון - מעוז", "id": "test"},
         {"text": "שדה", "id": "test"},
         {"text": "גפן", "id": "test"}
+    ],
+    "infoButtons": [
+        {"text": "הוראות קחצר", "id": "info"},
+        {"text": "מאמץ עצים", "id": "info"},
+        {"text": "שיטות אימון בצהל", "id": "info"},
+        {"text": "פיזותרפיה", "id": "info"},
+        {"text": "רישום לחדכ", "id": "info"},
+        {"text": "צור קשר", "id": "info"}
+    ],
+    "instructionsButtons": [
+        {"text": "כושר קרבי", "id": "instructions"},
+        {"text": "כושר גופני", "id": "instructions"},
+        {"text": "תזונה", "id": "instructions"},
+        {"text": "עומס קור וחום", "id": "instructions"},
+        {"text": "דבר המדור", "id": "instructions"}
+    ],
+    "facilitiesButtons": [
+        {"text": "חדר כושר", "id": "facilities"},
+        {"text": "בריכה", "id": "facilities"},
+        {"text": "איצטדיון", "id": "facilities"},
+        {"text": "חוגים", "id": "facilities"}
     ]
 }

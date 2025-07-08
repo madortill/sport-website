@@ -1,7 +1,6 @@
 .round-button {
     position: relative;
     z-index: 1;
-    font-size: 1.1rem;
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -10,6 +9,7 @@
     margin: 1rem;
     justify-content: center;
     color: #FEECD8;
+    font-size: 1.1rem;
 }
 
 .icon-img {
@@ -33,5 +33,5 @@
     width: 8rem;
     max-width: 140px;
     max-height: 140px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
