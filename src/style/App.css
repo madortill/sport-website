@@ -1,23 +1,36 @@
-html, body, #root {
+
+
+html,
+body {
   margin: 0 auto;
   padding: 0;
-  text-align: center;
-  direction: rtl;
-  font-size: calc(10px + 0.5vw);
   height: 100%;
-  width: 100%;
+  background-color: white;
+}
+
+#root {
   display: flex;
-  max-width: 450px;
-  overflow: hidden;
-  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .app {
-  background-color: #FEECD8;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  direction: rtl;
   width: 100%;
-  max-width: 450px;
+  max-width: 550px;
+  height: 100vh;
+  background-color: #FEECD8;
   font-family: 'askim';
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
 }
+
 
 .bahad-symbols {
   position: absolute;
@@ -35,6 +48,13 @@ html, body, #root {
   bottom: 0.2rem;
   right: 1.5rem;
 }
+
+.home-background {
+  background-image: url('../assets/images/background-home.svg');
+  background-size: cover;
+  background-position: center;
+}
+
 
 @font-face {
   font-family: askim;

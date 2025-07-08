@@ -34,7 +34,7 @@ function Home() {
           </>
         )}
       </div>
-      <p className="title">אתר הכושר של קריית ההדרכה</p>
+      <p className="title-home">אתר הכושר של קריית ההדרכה</p>
       <button className="start-btn" onClick={nextPage}>בואו נרוץ על זה!</button>
     </div>
   );

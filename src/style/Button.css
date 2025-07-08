@@ -1,4 +1,4 @@
-.info-button {
+.round-button {
     position: relative;
     z-index: 1;
     font-size: 1.5rem;
@@ -6,13 +6,10 @@
     flex-direction: column;
     padding: 1rem;
     font-family: 'askim';
-    height: 9rem;
-    width: 9rem;
-    border-radius: 60px;
-    max-width: 120px;
-    max-height: 120px;
+    border-radius: 80px;
     margin: 1rem;
     justify-content: center;
+    color: #FEECD8;
 }
 
 .icon-img {
@@ -20,14 +17,27 @@
     max-height: 60px;
 }
 
-@media (min-width: 800px) {
-    .info-button {
+@media (max-width: 800px) {
+    .round-button {
         font-size: 1.1rem;
     }
 }
 
 .stadium-btn {
     border: 3px solid #FEECD8;
-    color: #FEECD8;
     background-color: #9C4534;
+    height: 9rem;
+    width: 9rem;
+    max-width: 120px;
+    max-height: 120px;
+}
+
+.choose-btn {
+    border: 3px solid #9C4534;
+    background-color: #EC8A6E;
+    height: 8rem;
+    width: 8rem;
+    max-width: 140px;
+    max-height: 140px;
+    font-size: 1.5rem;
 }

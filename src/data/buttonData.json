@@ -1,0 +1,22 @@
+{
+    "stadiumButtons": [
+        {"text": "אימונים", "id": "exercise"},
+        {"text": "מידע", "id": "info"},
+        {"text": "מידע למפקד", "id": "instructions"},
+        {"text": "מבחנים", "id": "test"},
+        {"text": " מתקנים", "id": "facilities"}
+    ],
+    "exerciseButtons": [
+        {"text": "אירובי", "id": "aerobics"},
+        {"text": "כוח", "id": "strength"},
+        {"text": "אנאירובי", "id": "un-aerobics"},
+        {"text": "קרב מגע", "id": "kravmaga"},
+        {"text": "פילאטיס", "id": "pilates"},
+        {"text": "ספינינג", "id": "spinning"}
+    ],
+    "testButtons": [
+        {"text": "נחשון - מעוז", "id": "test"},
+        {"text": "שדה", "id": "test"},
+        {"text": "גפן", "id": "test"}
+    ]
+}

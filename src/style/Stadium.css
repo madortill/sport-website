@@ -1,42 +1,45 @@
 .stadium-img {
-    position: relative;
-    top: 14rem;
-    width: 78%;
+    position: absolute;
+    top: 12rem;
+    right: 50%;
+    transform: translateX(50%);
+    width: 80%;
+    max-width: 400px;
 }
 
 .roundButtons {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, auto);
-    gap: 2rem 12%;
+    gap: 2rem 13%;
     width: 100%;
     max-width: 450px;
     margin: 0 auto;
     justify-items: center;
     align-items: center;
     position: absolute;
-    top: 12rem;
+    top: 10rem;
     right: 50%;
     transform: translateX(50%);
-  }
-  
-  .roundButtons > :nth-child(1) {
+}
+
+.roundButtons> :nth-child(1) {
     grid-column: 1 / span 2;
     justify-self: center;
-  }
-  
-  .roundButtons > :nth-child(2) {
+}
+
+.roundButtons> :nth-child(2) {
     grid-column: 1;
-  }
-  
-  .roundButtons > :nth-child(3) {
+}
+
+.roundButtons> :nth-child(3) {
     grid-column: 2;
-  }
-  
-  .roundButtons > :nth-child(4) {
+}
+
+.roundButtons> :nth-child(4) {
     grid-column: 1;
-  }
-  
-  .roundButtons > :nth-child(5) {
+}
+
+.roundButtons> :nth-child(5) {
     grid-column: 2;
-  }
+}

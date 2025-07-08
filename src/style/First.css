@@ -1,0 +1,30 @@
+.back-btn {
+    position: absolute;
+    border: none;
+    background-color: #9C4534;
+    border-radius: 150px;
+    width: 3.5rem;
+    height: 3.5rem;
+    right: 0.5rem;
+    top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-first {
+    font-size: 3.5rem;
+    position: relative;
+    top: 10%;
+    color: #9C4534;
+}
+
+.firstButtons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem 8%;
+    position: relative;
+    top: 8%;
+}
