@@ -5,5 +5,13 @@
         {"text": "הוראות למפקד", "icon": "instructions"},
         {"text": "מבחנים", "icon": "test"},
         {"text": " מתקנים", "icon": "facilities"}
+    ],
+    "exerciseButtons": [
+        {"text": "אירובי", "icon": "aerobics"},
+        {"text": "כוח", "icon": "strength"},
+        {"text": "אנאירובי", "icon": "un-aerobics"},
+        {"text": "קרב מגע", "icon": "kravmaga"},
+        {"text": "פילאטיס", "icon": "pilates"},
+        {"text": "ספינינג", "icon": "spinning"}
     ]
 }

@@ -17,7 +17,7 @@ function Stadium() {
       <img src={stadiumImg} alt="stadium" className="stadium-img" />
       <div className="roundButtons">
         {buttons.map((btn, i) => (
-          <RoundButton key={i} text={btn.text} icon={btn.icon} className={`info-button-${btn.icon}`}/>
+          <RoundButton key={i} text={btn.text} icon={btn.icon} page="stadium" className={`info-button-${btn.icon}`}/>
         ))}
       </div>
     </div>

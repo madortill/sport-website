@@ -6,13 +6,13 @@ const images = import.meta.glob("/src/assets/images/logos/*-logo.svg", {
   import: "default",
 });
 
-function RoundButton({ text, icon }) {
+function RoundButton({ text, icon, page }) {
   const imgSrc = images[`/src/assets/images/logos/${icon}-logo.svg`];
 
   if (!imgSrc) return null;
 
   return (
-    <button className={'info-button'}>
+    <button className={`info-button ${page}-btn`}>
       <img
         src={imgSrc}
         alt={text}
