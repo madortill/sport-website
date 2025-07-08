@@ -12,33 +12,13 @@
     height: 9rem;
     width: 9rem;
     border-radius: 60px;
+    max-width: 120px;
+    max-height: 120px;
+    margin: 1rem;
+    justify-content: center;
 }
 
 .icon-img {
     height: 4.3rem;
-}
-
-.info-button-exercise {
-    bottom: 26rem;
-    right: 11.5rem;
-}
-
-.info-button-info {
-    bottom: 23rem;
-    right: 1.5rem;
-}
-
-.info-button-instructions {
-    bottom: 16rem;
-    right: 3rem;
-}
-
-.info-button-test {
-    bottom: 25rem;
-    right: 21rem;
-}
-
-.info-button-facilities {
-    bottom: 50rem;
-    right: 22rem;
+    max-height: 50px;
 }

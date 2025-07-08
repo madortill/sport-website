@@ -1,26 +1,25 @@
 import React from "react";
 import "../style/Button.css";
-import roundButtonData from "../data/roundButtonData.json";
 
-function RoundButton({groupName}) {
-  const buttons = roundButtonData[groupName];
-  if (!Array.isArray(buttons)) {
-    return <p>לא נמצאו כפתורים עבור הקבוצה"{groupName}"</p>;
-  }
+const images = import.meta.glob("/src/assets/images/logos/*-logo.svg", {
+  eager: true,
+  import: "default",
+});
+
+function RoundButton({ text, icon }) {
+  const imgSrc = images[`/src/assets/images/logos/${icon}-logo.svg`];
+
+  if (!imgSrc) return null;
 
   return (
-    <div className="roundButtons">
-      {buttons.map((btn, i) => (
-        <button key={i} className={`info-button info-button-${btn.icon}`}>
-          <img
-            src={`/src/assets/images/logos/${btn.icon}-logo.svg`}
-            alt={btn.text}
-            className="icon-img"
-          />
-          {btn.text}
-        </button>
-      ))}
-    </div>
+    <button className={'info-button'}>
+      <img
+        src={imgSrc}
+        alt={text}
+        className="icon-img"
+      />
+      {text}
+    </button>
   );
 }
 
