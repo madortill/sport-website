@@ -64,13 +64,13 @@
 }
 
 .start-btn {
-    font-family: 'askim';
+    font-family: 'assistant-bold';
     border: 3px solid #9C4534;
     background-color: #FEECD8;
     color: #9C4534;
     border-radius: 60px;
-    font-size: 2rem;
-    padding: 1rem;
+    font-size: 1.8rem;
+    padding: 0.8rem 1.8rem;
     position: relative;
     top: 57%;
 }

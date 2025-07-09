@@ -4,7 +4,8 @@
         {"text": "מידע", "id": "info"},
         {"text": "מידע למפקד", "id": "instructions"},
         {"text": "מבחנים", "id": "test"},
-        {"text": " מתקנים", "id": "facilities"}
+        {"text": " מתקנים", "id": "facilities"},
+        {"text": "צרו קשר", "id": "contact-us"}
     ],
     "exerciseButtons": [
         {"text": "אירובי", "id": "aerobics"},
@@ -17,27 +18,34 @@
     "testButtons": [
         {"text": "נחשון - מעוז", "id": "test"},
         {"text": "שדה", "id": "test"},
-        {"text": "גפן", "id": "test"}
+        {"text": "גפן", "id": "test"},
+        {"text": "כש\"ג בסיסי", "id": "test"},
+        {"text": "כש\"ג רמה 2", "id": "test"}
     ],
     "infoButtons": [
-        {"text": "הוראות קחצר", "id": "info"},
-        {"text": "מאמץ עצים", "id": "info"},
-        {"text": "שיטות אימון בצהל", "id": "info"},
-        {"text": "פיזותרפיה", "id": "info"},
-        {"text": "רישום לחדכ", "id": "info"},
-        {"text": "צור קשר", "id": "info"}
+        {"text": "הוראות קחצר", "id": "kahzar"},
+        {"text": "מאמץ עצים", "id": "effort"},
+        {"text": "שיטות אימון בצהל", "id": "train"},
+        {"text": "רישום לחד\"כ", "id": "sign-up"},
+        {"text": "דבר המדור", "id": "mador"}
     ],
     "instructionsButtons": [
-        {"text": "כושר קרבי", "id": "instructions"},
-        {"text": "כושר גופני", "id": "instructions"},
-        {"text": "תזונה", "id": "instructions"},
-        {"text": "עומס קור וחום", "id": "instructions"},
-        {"text": "דבר המדור", "id": "instructions"}
+        {"text": "כושר קרבי", "id": "kravi"},
+        {"text": "כושר גופני", "id": "kosher"},
+        {"text": "תזונה", "id": "food"},
+        {"text": "פיזותרפיה", "id": "physiotherapy"},
+        {"text": "עומס קור וחום", "id": "weather"}
     ],
     "facilitiesButtons": [
-        {"text": "חדר כושר", "id": "facilities"},
-        {"text": "בריכה", "id": "facilities"},
-        {"text": "איצטדיון", "id": "facilities"},
-        {"text": "חוגים", "id": "facilities"}
+        {"text": "חדר כושר", "id": "gym"},
+        {"text": "בריכה", "id": "pool"},
+        {"text": "איצטדיון", "id": "stadium"},
+        {"text": "בחמ\"ס", "id": "bachmas"},
+        {"text": "מגרשי חוץ", "id": "migrash"},
+        {"text": "חוגים", "id": "classes"}
+    ],
+    "contact-usButtons": [
+        {"text": "מספרי טלפון", "id": "contact-us"},
+        {"text": "דבר המדור", "id": "contact-us"}
     ]
 }

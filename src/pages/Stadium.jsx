@@ -2,6 +2,7 @@ import React from "react";
 import "../style/Stadium.css";
 import RoundButton from "../components/RoundButton";
 import buttonData from "../data/buttonData.json";
+
 import { useNavigate } from "react-router-dom";
 
 import stadiumImg from "../assets/images/stadium-img.svg";
@@ -13,7 +14,6 @@ function Stadium() {
   const handleClick = (btn) => {
     navigate("/first-choose", { state: btn });
   }
-
 
   return (
     <div className="stadium">
