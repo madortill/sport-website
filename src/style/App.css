@@ -19,7 +19,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 95vh;
+  height: 100vh;
 }
 
 .app {
@@ -29,7 +29,7 @@ body {
   direction: rtl;
   width: 100%;
   max-width: 550px;
-  height: 95vh;
+  height: 100vh;
   background-color: #FEECD8;
   font-family: 'askim';
   overflow: hidden;
