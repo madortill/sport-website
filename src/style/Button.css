@@ -12,9 +12,15 @@
     line-height: 1;
 }
 
-.icon-img {
+.icon-img-round {
     height: 4.3rem;
     max-height: 60px;
+}
+
+.icon-img-square {
+    height: 2.8rem;
+    max-height: 50px;
+    margin-left: 1rem;
 }
 
 .stadium-btn {
@@ -27,7 +33,7 @@
     margin: 0.5rem;
 }
 
-.choose-btn {
+.choose1-btn {
     border: 3px solid #9C4534;
     background-color: #EC8A6E;
     height: 8rem;
@@ -36,6 +42,23 @@
     max-height: 140px;
     font-size: 1.2rem;
     margin: 1rem;
+    display: flex;
+}
+
+.choose2-btn {
+    border: 3px solid #9C4534;
+    background-color: #EC8A6E;
+    height: 3.5rem;
+    width: 80%;
+    max-height: 140px;
+    font-size: 1.5rem;
+    margin: 0rem;
+    border-radius: 20px;
+    font-family: 'assistant-bold';
+    color: #FEECD8;
+    display: flex;
+    align-items: center;
+    padding: 0rem 1rem;
 }
 
 @media (max-height: 700px) {

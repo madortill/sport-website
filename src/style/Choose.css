@@ -28,3 +28,19 @@
     position: relative;
     top: 12%;
 }
+
+.secondButtons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 0.5rem 8%;
+    position: relative;
+    top: 15%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.secondChoose {
+    width: 100%;
+}

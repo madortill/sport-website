@@ -7,7 +7,7 @@
         {"text": " מתקנים", "id": "facilities"},
         {"text": "צרו קשר", "id": "contact-us"}
     ],
-    "exerciseButtons": [
+    "exerciseButtons1": [
         {"text": "אירובי", "id": "aerobics"},
         {"text": "כוח", "id": "strength"},
         {"text": "אנאירובי", "id": "un-aerobics"},
@@ -15,28 +15,28 @@
         {"text": "פילאטיס", "id": "pilates"},
         {"text": "ספינינג", "id": "spinning"}
     ],
-    "testButtons": [
+    "testButtons1": [
         {"text": "נחשון - מעוז", "id": "test"},
         {"text": "שדה", "id": "test"},
         {"text": "גפן", "id": "test"},
         {"text": "כש\"ג בסיסי", "id": "test"},
         {"text": "כש\"ג רמה 2", "id": "test"}
     ],
-    "infoButtons": [
+    "infoButtons1": [
         {"text": "הוראות קחצר", "id": "kahzar"},
         {"text": "מאמץ עצים", "id": "effort"},
         {"text": "שיטות אימון בצהל", "id": "train"},
         {"text": "רישום לחד\"כ", "id": "sign-up"},
         {"text": "דבר המדור", "id": "mador"}
     ],
-    "instructionsButtons": [
+    "instructionsButtons1": [
         {"text": "כושר קרבי", "id": "kravi"},
         {"text": "כושר גופני", "id": "kosher"},
         {"text": "תזונה", "id": "food"},
         {"text": "פיזותרפיה", "id": "physiotherapy"},
         {"text": "עומס קור וחום", "id": "weather"}
     ],
-    "facilitiesButtons": [
+    "facilitiesButtons1": [
         {"text": "חדר כושר", "id": "gym"},
         {"text": "בריכה", "id": "pool"},
         {"text": "איצטדיון", "id": "stadium"},
@@ -44,8 +44,20 @@
         {"text": "מגרשי חוץ", "id": "migrash"},
         {"text": "חוגים", "id": "classes"}
     ],
-    "contact-usButtons": [
+    "contact-usButtons1": [
         {"text": "מספרי טלפון", "id": "contact-us"},
         {"text": "דבר המדור", "id": "contact-us"}
+    ],
+    "aerobicsButtons2": [
+        {"text": "אירובי (1)"},
+        {"text": "אירובי (2)"},
+        {"text": "אירובי שינוי קצב (1)"},
+        {"text": "אירובי שינוי קצב (2)"},
+        {"text": "אימוני נדב"},
+        {"text": "אימוני ריצה - חימום"},
+        {"text": "אימוני ריצה - רצף"},
+        {"text": "אימוני ריצה - מקטעים"},
+        {"text": "אימוני ריצה - עליות"},
+        {"text": "אימוני ריצה - שחרור"}
     ]
 }

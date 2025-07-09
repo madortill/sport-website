@@ -1,21 +1,25 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import { Navigate, useNavigate } from "react-router-dom";
-import "../style/First.css";
+import "../style/Choose.css";
 import buttonData from "../data/buttonData.json";
-import RoundButton from "../components/RoundButton";
+import MyButton from "../components/MyButton";
 
 import arrow from "../assets/images/arrow.svg";
 
 function FirstChoose() {
   const location = useLocation();
   const btnPressed = location.state;
-  const buttons = buttonData[`${btnPressed.id}Buttons`];
+  const buttons = buttonData[`${btnPressed.id}Buttons1`];
   const navigate = useNavigate();
 
   const backButton = () => {
     navigate("/stadium");
   };
+
+  const handleClick = (btn) => {
+    navigate("/second-choose", { state: btn });
+  }
 
   return (
     <div className="firstChoose">
@@ -25,12 +29,13 @@ function FirstChoose() {
       <h1 className="title-first">{btnPressed.text}</h1>
       <div className="firstButtons">
         {buttons.map((btn, i) => (
-          <RoundButton
+          <MyButton
             key={i}
             id={btn.id}
             text={btn.text}
             icon={btn.id}
-            page="choose"
+            page="choose1"
+            type="round"
             onClick={() => handleClick(btn)}
           />
         ))}

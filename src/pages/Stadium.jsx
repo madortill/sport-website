@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/Stadium.css";
-import RoundButton from "../components/RoundButton";
+import MyButton from "../components/MyButton";
 import buttonData from "../data/buttonData.json";
 
 import { useNavigate } from "react-router-dom";
@@ -20,7 +20,7 @@ function Stadium() {
       <img src={stadiumImg} alt="stadium" className="stadium-img" />
       <div className="roundButtons">
         {buttons.map((btn, i) => (
-          <RoundButton key={i} id={btn.id} text={btn.text} icon={btn.id} page="stadium" onClick={() => handleClick(btn)}/>
+          <MyButton key={i} id={btn.id} text={btn.text} type="round" icon={btn.id} page="stadium" onClick={() => handleClick(btn)}/>
         ))}
       </div>
     </div>
