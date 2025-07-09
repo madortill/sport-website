@@ -3,19 +3,20 @@
     border: none;
     background-color: #9C4534;
     border-radius: 150px;
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
     right: 0.5rem;
     top: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .title-first {
     font-size: 3.5rem;
     position: relative;
-    top: 12%;
+    top: 5rem;
     color: #9C4534;
 }
 
@@ -33,14 +34,46 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
+    align-content: flex-start;
     gap: 0.5rem 8%;
-    position: relative;
-    top: 15%;
-    overflow-y: scroll;
+    position: absolute;
+    top: 10rem;
+    height: 75%;
+    /* max-height: 60vh; */
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 0.5rem;
     scroll-behavior: smooth;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: #9C4534 #FEECD8;
 }
 
 .secondChoose {
     width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.secondButtons::-webkit-scrollbar {
+    width: 8px;
+}
+
+.secondButtons::-webkit-scrollbar-track {
+    background: #FEECD8;
+    border-radius: 10px;
+}
+
+.secondButtons::-webkit-scrollbar-thumb {
+    background-color: #9C4534;
+    border-radius: 10px;
+    border: 2px solid #FEECD8;
+}
+
+.secondButtons::-webkit-scrollbar-thumb:hover {
+    background-color: #7b2f23;
 }

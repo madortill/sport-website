@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { useLocation } from "react-router-dom";
 import { Navigate, useNavigate } from "react-router-dom";
 import buttonData from "../data/buttonData.json";
@@ -8,30 +8,38 @@ import "../style/Choose.css";
 import arrow from "../assets/images/arrow.svg";
 
 function SecondChoose() {
-    const location = useLocation();
-    const btnPressed = location.state;
-    const buttons = buttonData[`${btnPressed.id}Buttons2`];
-    const navigate = useNavigate();
+  const location = useLocation();
+  const navigate = useNavigate();
 
-    const backButton = () => {
-        // navigate("/stadium");
-        console.log("back");
-      };
-    
-    
+  const { prevCategory, selectedButton } = location.state || {};
+  
+  if (!selectedButton || !selectedButton.id) {
+    return <Navigate to="/first-choose" replace />;
+  }
+
+  const buttons = buttonData[`${selectedButton.id}Buttons2`];
+
+  const backButton = () => {
+    navigate("/first-choose", { state: prevCategory });
+  };
+
+  const handleClick = (btn) => {
+    console.log("Button clicked:", btn);
+  };
+
   return (
     <div className="secondChoose">
-      <button className="back-btn">
-        <img src={arrow} alt="back-arrow" onClick={backButton} />
+      <button className="back-btn" onClick={backButton}>
+        <img src={arrow} alt="back-arrow" />
       </button>
-      <h1 className="title-first">{btnPressed.text}</h1>
+      <h1 className="title-first">{selectedButton.text}</h1>
       <div className="secondButtons">
         {buttons.map((btn, i) => (
           <MyButton
             key={i}
             id={btn.id}
             text={btn.text}
-            icon={btnPressed.id}
+            icon={selectedButton.id}
             page="choose2"
             type="square"
             onClick={() => handleClick(btn)}
@@ -39,7 +47,7 @@ function SecondChoose() {
         ))}
       </div>
     </div>
-  )
+  );
 }
 
-export default SecondChoose
+export default SecondChoose;

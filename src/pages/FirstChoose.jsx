@@ -18,13 +18,18 @@ function FirstChoose() {
   };
 
   const handleClick = (btn) => {
-    navigate("/second-choose", { state: btn });
-  }
+    navigate("/second-choose", {
+      state: {
+        prevCategory: btnPressed,
+        selectedButton: btn,
+      },
+    });
+  };
 
   return (
     <div className="firstChoose">
-      <button className="back-btn">
-        <img src={arrow} alt="back-arrow" onClick={backButton} />
+      <button className="back-btn" onClick={backButton}>
+        <img src={arrow} alt="back-arrow" />
       </button>
       <h1 className="title-first">{btnPressed.text}</h1>
       <div className="firstButtons">
