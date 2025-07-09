@@ -6,7 +6,6 @@
     padding: 1rem;
     font-family: 'assistant-bold';
     border-radius: 80px;
-    margin: 1rem;
     justify-content: center;
     color: #FEECD8;
     font-size: 1.1rem;
@@ -25,6 +24,7 @@
     width: 9rem;
     max-width: 120px;
     max-height: 120px;
+    margin: 0.5rem;
 }
 
 .choose-btn {
@@ -35,4 +35,16 @@
     max-width: 140px;
     max-height: 140px;
     font-size: 1.2rem;
+    margin: 1rem;
+}
+
+@media (max-height: 700px) {
+    .stadium-btn {
+        width: 7rem;
+        height: 7rem;
+        font-size: 1.2rem;
+    }
+    .icon-img {
+        height: 3.5rem;
+    }
 }

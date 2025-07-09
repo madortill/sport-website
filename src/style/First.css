@@ -15,7 +15,7 @@
 .title-first {
     font-size: 3.5rem;
     position: relative;
-    top: 7%;
+    top: 12%;
     color: #9C4534;
 }
 
@@ -26,5 +26,5 @@
     align-content: center;
     gap: 1rem 8%;
     position: relative;
-    top: 3%;
+    top: 12%;
 }
