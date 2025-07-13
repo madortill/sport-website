@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import Stadium from "./pages/Stadium";
 import FirstChoose from "./pages/FirstChoose";
 import SecondChoose from "./pages/SecondChoose";
-import MainText from "./pages/MainText";
+import MainText from "./pages/mainText";
 
 import mifkada from "./assets/images/mifkada2.svg";
 import bahad8 from "./assets/images/bahad8-2.svg";
