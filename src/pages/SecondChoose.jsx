@@ -10,6 +10,7 @@ import arrow from "../assets/images/arrow.svg";
 function SecondChoose() {
   const location = useLocation();
   const navigate = useNavigate();
+  const btnPressed = location.state;
 
   const { prevCategory, selectedButton } = location.state || {};
   
@@ -24,7 +25,12 @@ function SecondChoose() {
   };
 
   const handleClick = (btn) => {
-    console.log("Button clicked:", btn);
+    navigate("/main-text", {
+      state: {
+        prevCategory: btnPressed,
+        selectedButton: btn,
+      },
+    });
   };
 
   return (

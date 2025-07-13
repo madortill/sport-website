@@ -1,0 +1,14 @@
+{
+    "aerobicsText": [
+        {"text": "אירובי (1)", "id": "aerobics1", "target" : "לתמוך בפעילות מתמשכת בעצימות", "level" : "קשה", "workoutLength" : "45-50 דק'", "warmup" : "1 ק\"מ חימום", "training" : "סכ\"ה חוזרים על הסט 4 פעמים. 1. 600 מ' 90% מקצב בוחן. 2. 400 מ' 60% מקצב בוחן", "end" : "1 ק\"מ שחרור קל"},
+        {"text": "אירובי (2)", "id": "aerobics2", "target" : "לתמוך בפעילות מתמשכת בעצימות תת-מרבית, המפעילה את קבוצות שרירי השלד הגדולות.", "level" : "קשה", "workoutLength" : "45-50 דק'", "warmup" : "1.5 ק\"מ חימום", "training" : "20 דק' רצוף: 1 דק' חזק. 1 דק' קל", "end" : "1.5 ק\"מ שחרור קל"},
+        {"text": "אירובי שינוי קצב (1)", "id": "aerobics-change1", "target" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"text": "אירובי שינוי קצב (2)", "id": "aerobics-change2", "target" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"text": "אימוני נדב", "id": "nadav", "target" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"text": "אימוני ריצה - חימום", "id": "run-warmup"},
+        {"text": "אימוני ריצה - רצף", "id": "run-constant"},
+        {"text": "אימוני ריצה - מקטעים", "id": "run-parts"},
+        {"text": "אימוני ריצה - עליות", "id": "run-hills"},
+        {"text": "אימוני ריצה - שחרור", "id": "run-release"}
+    ]
+}
