@@ -5,7 +5,7 @@ function TrainingText({currText, catagory}) {
     const text = textData[`${catagory}Text`][currText];
   return (
     <>
-      <p className='target'><span className='mini-title'>מטרה:</span> {text.target}</p>
+      <p className='focus'><span className='mini-title'>מטרה:</span> {text.focus}</p>
       <p className='level'><span className='mini-title'>רמת קושי:</span> {text.level}</p>
       <p className='workout-length'><span className='mini-title'>משך זמן האימון:</span> {text.workoutLength}</p>
       <p className='warmup'><span className='mini-title'>חימום:</span> {text.warmup}</p>

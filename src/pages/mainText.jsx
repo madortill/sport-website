@@ -12,7 +12,7 @@ function MainText() {
     const location = useLocation();
     const navigate = useNavigate();
   
-    const { prevCategory, selectedButton } = location.state || {};
+    const { prevCategory, selectedButton, index } = location.state || {};
     
     if (!selectedButton || !selectedButton.id) {
       return <Navigate to="/second-choose" replace />;
@@ -23,7 +23,7 @@ function MainText() {
     const backButton = () => {
       navigate("/second-choose", { state: prevCategory });
     };
-  
+    
   return (
     <div className="main-text">
       <button className="back-btn" onClick={backButton}>

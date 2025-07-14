@@ -26,6 +26,10 @@ function FirstChoose() {
     });
   };
 
+  if (!btnPressed || !btnPressed.id) {
+    return <Navigate to="/" replace />; // או דף הבית או דף אחר לבחירתך
+  }
+
   return (
     <div className="firstChoose">
       <button className="back-btn" onClick={backButton}>

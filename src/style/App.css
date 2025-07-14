@@ -54,7 +54,8 @@ body {
 .til-logo {
   position: absolute;
   bottom: 0.2rem;
-  right: 1.5rem;
+  right: 0.8rem;
+  height: 3rem;
 }
 
 .home-background {

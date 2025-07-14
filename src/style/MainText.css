@@ -27,7 +27,7 @@
     scrollbar-width: thin;
     scrollbar-color: #9C4534 #FEECD8;
     position: relative;
-    bottom: 8rem;
+    bottom: 6rem;
     text-align: start;
 }
 
@@ -58,9 +58,15 @@
     justify-content: center;
 }
 
-@media (max-height: 780px) {
+@media (max-height: 800px) {
     .text-box {
-        bottom: 5rem;
+        bottom: 4rem;
+    }
+}
+
+@media (max-height: 700px) {
+    .text-box {
+        bottom: 1rem;
     }
 }
 
