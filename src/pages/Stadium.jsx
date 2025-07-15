@@ -12,7 +12,16 @@ function Stadium() {
   const navigate = useNavigate();
 
   const handleClick = (btn) => {
-    navigate("/first-choose", { state: btn });
+    if (btn.id === "contact-us") {
+      navigate("/main-text", {
+        state: {
+          prevCategory: btn,
+          selectedButton: btn,
+        },
+      });
+    } else {
+      navigate("/first-choose", { state: btn });
+    }
   }
 
   return (

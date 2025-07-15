@@ -18,16 +18,25 @@ function FirstChoose() {
   };
 
   const handleClick = (btn) => {
-    navigate("/second-choose", {
-      state: {
-        prevCategory: btnPressed,
-        selectedButton: btn,
-      },
-    });
+    if (btn.isLastButton === 'true') {
+      navigate("/main-text", {
+        state: {
+          prevCategory: btnPressed,
+          selectedButton: btn,
+        },
+      });
+    } else {
+      navigate("/second-choose", {
+        state: {
+          prevCategory: btnPressed,
+          selectedButton: btn,
+        },
+      });
+    }
   };
 
   if (!btnPressed || !btnPressed.id) {
-    return <Navigate to="/" replace />; // או דף הבית או דף אחר לבחירתך
+    return <Navigate to="/" replace />;
   }
 
   return (

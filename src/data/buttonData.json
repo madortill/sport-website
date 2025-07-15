@@ -1,91 +1,88 @@
 {
     "stadiumButtons": [
-        {"text": "אימונים", "id": "exercise"},
-        {"text": "מידע", "id": "info"},
-        {"text": "מידע למפקד", "id": "instructions"},
-        {"text": "מבחנים", "id": "test"},
-        {"text": " מתקנים", "id": "facilities"},
-        {"text": "צרו קשר", "id": "contact-us"}
+        {"text": "אימונים", "id": "exercise", "isLastButton": "false"},
+        {"text": "מידע", "id": "info" , "isLastButton": "false"},
+        {"text": "מידע למפקד", "id": "commander", "isLastButton": "false"},
+        {"text": "מבחנים", "id": "test", "isLastButton": "false"},
+        {"text": " מתקנים", "id": "facilities", "isLastButton": "false"},
+        {"text": "צרו קשר", "id": "contact-us", "isLastButton": "true"}
     ],
     "exerciseButtons1": [
-        {"text": "אירובי", "id": "aerobics"},
-        {"text": "כוח", "id": "strength"},
-        {"text": "אנאירובי", "id": "un-aerobics"},
-        {"text": "קרב מגע", "id": "kravmaga"},
-        {"text": "פילאטיס", "id": "pilates"},
-        {"text": "ספינינג", "id": "spinning"}
+        {"text": "אירובי", "id": "aerobics", "isLastButton": "false"},
+        {"text": "כוח", "id": "strength", "isLastButton": "false"},
+        {"text": "אנאירובי", "id": "un-aerobics", "isLastButton": "false"},
+        {"text": "קרב מגע", "id": "kravmaga", "isLastButton": "true"},
+        {"text": "פילאטיס", "id": "pilates", "isLastButton": "false"},
+        {"text": "ספינינג", "id": "spinning", "isLastButton": "false"}
     ],
     "testButtons1": [
-        {"text": "נחשון - מעוז", "id": "test"},
-        {"text": "שדה", "id": "test"},
-        {"text": "גפן", "id": "test"},
-        {"text": "כש\"ג בסיסי", "id": "test"},
-        {"text": "כש\"ג רמה 2", "id": "test"}
+        {"text": "נחשון - מעוז", "id": "test", "isLastButton": "true"},
+        {"text": "שדה", "id": "test", "isLastButton": "true"},
+        {"text": "גפן", "id": "test", "isLastButton": "true"},
+        {"text": "כש\"ג בסיסי", "id": "test", "isLastButton": "true"},
+        {"text": "כש\"ג רמה 2", "id": "test", "isLastButton": "true"}
     ],
     "infoButtons1": [
-        {"text": "הוראות קחצר", "id": "kahzar"},
-        {"text": "מאמץ עצים", "id": "effort"},
-        {"text": "שיטות אימון בצהל", "id": "train"},
-        {"text": "רישום לחד\"כ", "id": "sign-up"},
-        {"text": "דבר המדור", "id": "mador"}
+        {"text": "הוראות קחצר", "id": "kahzar", "isLastButton": "true"},
+        {"text": "מאמץ עצים", "id": "effort", "isLastButton": "true"},
+        {"text": "שיטות אימון בצהל", "id": "train", "isLastButton": "true"},
+        {"text": "רישום לחד\"כ", "id": "sign-up", "isLastButton": "true"},
+        {"text": "דבר המדור", "id": "mador", "isLastButton": "true"}
     ],
-    "instructionsButtons1": [
-        {"text": "כושר קרבי", "id": "kravi"},
-        {"text": "כושר גופני", "id": "kosher"},
-        {"text": "תזונה", "id": "food"},
-        {"text": "פיזותרפיה", "id": "physiotherapy"},
-        {"text": "עומס קור וחום", "id": "weather"}
+    "commanderButtons1": [
+        {"text": "כושר קרבי", "id": "kravi", "isLastButton": "true"},
+        {"text": "כושר גופני", "id": "kosher", "isLastButton": "false"},
+        {"text": "תזונה", "id": "food", "isLastButton": "false"},
+        {"text": "פיזותרפיה", "id": "physiotherapy", "isLastButton": "false"},
+        {"text": "עומס קור וחום", "id": "weather", "isLastButton": "true"}
     ],
     "facilitiesButtons1": [
-        {"text": "חדר כושר", "id": "gym"},
-        {"text": "בריכה", "id": "pool"},
-        {"text": "איצטדיון", "id": "stadium"},
-        {"text": "בחמ\"ס", "id": "bachmas"},
-        {"text": "מגרשי חוץ", "id": "migrash"},
-        {"text": "חוגים", "id": "classes"}
+        {"text": "חדר כושר", "id": "gym", "isLastButton": "true"},
+        {"text": "בריכה", "id": "pool", "isLastButton": "true"},
+        {"text": "איצטדיון", "id": "stadium", "isLastButton": "true"},
+        {"text": "בחמ\"ס", "id": "bachmas", "isLastButton": "true"},
+        {"text": "מגרשי חוץ", "id": "migrash", "isLastButton": "true"},
+        {"text": "חוגים", "id": "classes", "isLastButton": "true"}
     ],
     "contact-usButtons1": [
-        {"text": "מספרי טלפון", "id": "contact-us"},
-        {"text": "דבר המדור", "id": "contact-us"}
     ],
     "aerobicsButtons2": [
-        {"text": "אירובי (1)", "id": "0"},
-        {"text": "אירובי (2)", "id": "1"},
-        {"text": "אירובי שינוי קצב (1)", "id": "2"},
-        {"text": "אירובי שינוי קצב (2)", "id": "3"},
-        {"text": "אימוני נדב", "id": "4"},
-        {"text": "אימוני ריצה - חימום", "id": "5"},
-        {"text": "אימוני ריצה - רצף", "id": "6"},
-        {"text": "אימוני ריצה - מקטעים", "id": "7"},
-        {"text": "אימוני ריצה - עליות", "id": "8"},
-        {"text": "אימוני ריצה - שחרור", "id": "9"}
+        {"text": "אירובי (1)", "id": "0","group": "exercise"},
+        {"text": "אירובי (2)", "id": "1","group": "exercise"},
+        {"text": "אירובי שינוי קצב (1)", "id": "2","group": "exercise"},
+        {"text": "אירובי שינוי קצב (2)", "id": "3","group": "exercise"},
+        {"text": "אימוני נדב", "id": "4","group": "exercise"},
+        {"text": "אימוני ריצה - חימום", "id": "5","group": "exercise"},
+        {"text": "אימוני ריצה - רצף", "id": "6","group": "exercise"},
+        {"text": "אימוני ריצה - מקטעים", "id": "7","group": "exercise"},
+        {"text": "אימוני ריצה - עליות", "id": "8","group": "exercise"},
+        {"text": "אימוני ריצה - שחרור", "id": "9","group": "exercise"}
     ],
     "strengthButtons2": [
-        {"text": "פקל מתח מקבילים", "id" :"0"},
-        {"text": "מארז 2", "id" :"1"},
-        {"text": "מארז 3", "id" :"2"},
-        {"text": "משקל גוף", "id" :"3"}
+        {"text": "פקל מתח מקבילים", "id" :"0","group": "exercise"},
+        {"text": "מארז 2", "id" :"1","group": "exercise"},
+        {"text": "מארז 3", "id" :"2","group": "exercise"},
+        {"text": "משקל גוף", "id" :"3","group": "exercise"}
     ],
     "un-aerobicsButtons2": [
-        {"text": "אימון אנאירובי", "id" :"0"},
-        {"text": "אימון עליות", "id" :"1"},
-        {"text": "אימון אינטרוולים", "id" :"2"},
-        {"text": "אימון מקטעים", "id" :"3"}
+        {"text": "אימון אנאירובי", "id" :"0","group": "exercise"},
+        {"text": "אימון עליות", "id" :"1","group": "exercise"},
+        {"text": "אימון אינטרוולים", "id" :"2","group": "exercise"},
+        {"text": "אימון מקטעים", "id" :"3","group": "exercise"}
     ],
     "kravmagaButtons2": [
-        {"text": "טקסט", "id" :"0"}
     ],
     "pilatesButtons2": [
-        {"text": "אימון 1", "id" :"0"},
-        {"text": "אימון 2", "id" :"1"},
-        {"text": "אימון 3", "id" :"2"},
-        {"text": "אימוני ליבה ויציבות", "id" :"3"}
+        {"text": "אימון 1", "id" :"0","group": "exercise"},
+        {"text": "אימון 2", "id" :"1","group": "exercise"},
+        {"text": "אימון 3", "id" :"2","group": "exercise"},
+        {"text": "אימוני ליבה ויציבות", "id" :"3","group": "exercise"}
     ],
     "spinningButtons2": [
-        {"text": "אימון 1", "id" :"0"},
-        {"text": "אימון 2", "id" :"1"},
-        {"text": "אימון 3", "id" :"2"},
-        {"text": "אימון 4", "id" :"3"}
+        {"text": "אימון 1", "id" :"0","group": "exercise"},
+        {"text": "אימון 2", "id" :"1","group": "exercise"},
+        {"text": "אימון 3", "id" :"2","group": "exercise"},
+        {"text": "אימון 4", "id" :"3","group": "exercise"}
     ],
     "kosherButtons2": [
         {"text": "פציעות ומניעות"},
