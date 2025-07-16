@@ -69,9 +69,7 @@
     border-radius: 50px;
     font-size: 1.3rem;
     padding: 0.4rem 1.5rem;
-    margin-top: 20rem;
-    /* position: relative;
-    top: 72%; */
+    margin-top: 21rem;
     cursor: pointer;
     z-index: 4;
 }
@@ -90,18 +88,18 @@
 
 @media (max-height: 800px) {
     .start-btn {
-        margin-top: 17rem;
+        margin-top: 18rem;
     }
 }
 @media (max-height: 750px) {
     .start-btn {
-        margin-top: 15rem;
+        margin-top: 16rem;
     }
 }
 
 @media (max-height: 670px) {
     .start-btn {
-        margin-top: 14rem;
+        margin-top: 16rem;
     }
     .title-home {
         margin-top: 12rem;
