@@ -39,7 +39,7 @@
     position: absolute;
     top: 10rem;
     height: 75%;
-    /* max-height: 60vh; */
+    max-height: 70vh;
     overflow-y: auto;
     overflow-x: hidden;
     padding-right: 0.5rem;
@@ -76,4 +76,16 @@
 
 .secondButtons::-webkit-scrollbar-thumb:hover {
     background-color: #7b2f23;
+}
+
+@media (max-height: 700px) {
+    .secondButtons {
+        max-height: 65vh;
+    }
+}
+
+@media (max-height: 570px) {
+    .secondButtons {
+        max-height: 60vh;
+    }
 }

@@ -11,7 +11,7 @@
 } */
 
 .text-box {
-    width: 80%;
+    width: 85%;
     max-height: 60vh;
     /* או כל גובה שמתאים לעיצוב שלך */
     background-color: #EC8A6E;
@@ -26,8 +26,9 @@
     box-sizing: border-box;
     scrollbar-width: thin;
     scrollbar-color: #9C4534 #FEECD8;
-    position: relative;
-    bottom: 6rem;
+    margin-top: -15rem;
+    /* position: relative;
+    bottom: 6rem; */
     text-align: start;
 }
 
@@ -60,13 +61,13 @@
 
 @media (max-height: 800px) {
     .text-box {
-        bottom: 4rem;
+        margin-top: -13rem;
     }
 }
 
 @media (max-height: 700px) {
     .text-box {
-        bottom: 1rem;
+        margin-top: -10rem;
     }
 }
 

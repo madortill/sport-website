@@ -25,18 +25,12 @@ function MainText() {
   const text = textData[`${selectedButton.id}Text`];
 
   const backButton = () => {
-    console.log(prevCategory.id);
-    if (
-      prevCategory.id === "exercise" ||
-      "info" ||
-      "commander" ||
-      "test" ||
-      "facilities"
+    if (prevCategory.id === "contact-us") {
+      navigate("/stadium");
+    } else if (
+      ["exercise", "info", "commander", "test", "facilities"].includes(prevCategory.id)
     ) {
       navigate("/first-choose", { state: prevCategory });
-    } else if (prevCategory.id == "contact-us") {
-      console.log("here");
-      navigate("/stadium");
     } else {
       navigate("/second-choose", { state: prevCategory });
     }
