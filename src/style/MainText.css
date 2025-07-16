@@ -1,19 +1,8 @@
-/* .text-box {
-    width: 80%;
-    background-color: #EC8A6E;
-    border: 3px solid #9C4434;
-    color: #FEECD8;
-    font-family: 'assistant';
-    border-radius: 20px;
-    position: relative;
-    bottom: 17rem;
-    font-size: 1.5rem;
-} */
+
 
 .text-box {
     width: 85%;
     max-height: 60vh;
-    /* או כל גובה שמתאים לעיצוב שלך */
     background-color: #EC8A6E;
     border: 3px solid #9C4434;
     color: #FEECD8;
@@ -27,8 +16,6 @@
     scrollbar-width: thin;
     scrollbar-color: #9C4534 #FEECD8;
     margin-top: -15rem;
-    /* position: relative;
-    bottom: 6rem; */
     text-align: start;
 }
 

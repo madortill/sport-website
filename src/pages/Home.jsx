@@ -35,8 +35,10 @@ function Home() {
           </>
         )}
       </div>
+      <div className="main-items">
       <p className="title-home">אתר הכושר של קריית ההדרכה</p>
       <button className="start-btn" onClick={nextPage}>בואו נרוץ על זה!</button>
+      </div>
     </div>
   );
 }
