@@ -3,6 +3,9 @@ import textData from "../data/textData.json";
 
 function RegularText({currText}) {
   const text = textData[`${currText}Text`];
+  if (text === undefined) {
+    return null;
+  }
   return (
     <>
       {text.map((item, i) => {

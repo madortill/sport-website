@@ -26,7 +26,7 @@
         {"text": "הוראות קחצר", "id": "kahzar", "isLastButton": "true"},
         {"text": "מאמץ עצים", "id": "effort", "isLastButton": "true"},
         {"text": "שיטות אימון בצהל", "id": "train", "isLastButton": "true"},
-        {"text": "רישום לחד\"כ", "id": "sign-up", "isLastButton": "true"},
+        {"text": "רישום לחד\"כ", "id": "signUp", "isLastButton": "true"},
         {"text": "דבר המדור", "id": "mador", "isLastButton": "true"}
     ],
     "commanderButtons1": [
@@ -68,8 +68,6 @@
         {"text": "אימון אינטרוולים", "id" :"2","group": "exercise"},
         {"text": "אימון מקטעים", "id" :"3","group": "exercise"}
     ],
-    "kravmagaButtons2": [
-    ],
     "pilatesButtons2": [
         {"text": "אימון 1", "id" :"0","group": "exercise"},
         {"text": "אימון 2", "id" :"1","group": "exercise"},
@@ -100,7 +98,5 @@
         {"text": "חגורת הכתפיים", "id" :"3"},
         {"text": "הגב התחתון", "id" :"4"},
         {"text": "גיד אכילס", "id" :"5"}
-    ],
-    "weatherButtons2": [
     ]
 }

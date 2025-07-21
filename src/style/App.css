@@ -18,13 +18,12 @@ body {
 #root {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   height: 100vh;
 }
 
 .app {
   display: flex;
-  /* align-content: flex-start; */
   justify-content: center;
   text-align: center;
   direction: rtl;
