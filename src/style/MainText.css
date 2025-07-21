@@ -1,8 +1,6 @@
-
-
 .text-box {
     width: 85%;
-    max-height: 60vh;
+    max-height: 65vh;
     background-color: #EC8A6E;
     border: 3px solid #9C4434;
     color: #FEECD8;
@@ -15,7 +13,6 @@
     box-sizing: border-box;
     scrollbar-width: thin;
     scrollbar-color: #9C4534 #FEECD8;
-    margin-top: -15rem;
     text-align: start;
 }
 
@@ -39,25 +36,26 @@
 }
 
 .main-text {
-    height: 100%;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-@media (max-height: 800px) {
-    .text-box {
-        margin-top: -13rem;
-    }
-}
-
-@media (max-height: 700px) {
-    .text-box {
-        margin-top: -10rem;
-    }
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 1rem;
+    box-sizing: border-box;
 }
 
 .mini-title {
     text-decoration: underline;
+}
+
+.title-first {
+    margin-bottom: 6rem;
+}
+
+.title-text {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.7rem;
 }

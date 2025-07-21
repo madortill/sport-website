@@ -5,7 +5,7 @@
         {"text": "מידע למפקד", "id": "commander", "isLastButton": "false"},
         {"text": "מבחנים", "id": "test", "isLastButton": "false"},
         {"text": " מתקנים", "id": "facilities", "isLastButton": "false"},
-        {"text": "צרו קשר", "id": "contact-us", "isLastButton": "true"}
+        {"text": "צרו קשר", "id": "contactUs", "isLastButton": "true"}
     ],
     "exerciseButtons1": [
         {"text": "אירובי", "id": "aerobics", "isLastButton": "false"},
@@ -16,11 +16,11 @@
         {"text": "ספינינג", "id": "spinning", "isLastButton": "false"}
     ],
     "testButtons1": [
-        {"text": "נחשון - מעוז", "id": "test", "isLastButton": "true"},
-        {"text": "שדה", "id": "test", "isLastButton": "true"},
-        {"text": "גפן", "id": "test", "isLastButton": "true"},
-        {"text": "כש\"ג בסיסי", "id": "test", "isLastButton": "true"},
-        {"text": "כש\"ג רמה 2", "id": "test", "isLastButton": "true"}
+        {"text": "נחשון - מעוז", "id": "testMaoz", "isLastButton": "true"},
+        {"text": "שדה", "id": "testField", "isLastButton": "true"},
+        {"text": "גפן", "id": "testGefen", "isLastButton": "true"},
+        {"text": "כש\"ג בסיסי", "id": "testBasic", "isLastButton": "true"},
+        {"text": "כש\"ג רמה 2", "id": "testLevel2", "isLastButton": "true"}
     ],
     "infoButtons1": [
         {"text": "הוראות קחצר", "id": "kahzar", "isLastButton": "true"},
@@ -83,10 +83,10 @@
         {"text": "אימון 4", "id" :"3","group": "exercise"}
     ],
     "kosherButtons2": [
-        {"text": "פציעות ומניעות", "id" :"0"},
-        {"text": "תוכניות אימונים", "id" :"1"},
-        {"text": "איך משתפרים?", "id" :"2"},
-        {"text": "נפח אימון", "id" :"3"}
+        {"text": "פציעות ומניעות", "id" :"kosherInjury"},
+        {"text": "תוכניות אימונים", "id" :"kosherPlans"},
+        {"text": "איך משתפרים?", "id" :"kosherImprove"},
+        {"text": "נפח אימון", "id" :"kosherVolume"}
     ],
     "foodButtons2": [
         {"text": "דגשי תזונה לקראת בוחן", "id" :"0"},

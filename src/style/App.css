@@ -4,7 +4,7 @@ html,
 body {
   margin: 0 auto;
   padding: 0;
-  height: 90%;
+  height: 100%;
   background-color: white;
 }
 
@@ -24,12 +24,13 @@ body {
 
 .app {
   display: flex;
+  /* align-content: flex-start; */
   justify-content: center;
   text-align: center;
   direction: rtl;
   width: 100%;
   max-width: 550px;
-  height: 100vh;
+  height:91vh;
   background-color: #FEECD8;
   font-family: 'askim';
   overflow: hidden;

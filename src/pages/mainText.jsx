@@ -6,6 +6,7 @@ import { Navigate, useNavigate } from "react-router-dom";
 
 import arrow from "../assets/images/arrow.svg";
 import TrainingText from "../components/TrainingText";
+import RegularText from "../components/RegularText";
 
 function MainText() {
   const location = useLocation();
@@ -25,7 +26,7 @@ function MainText() {
   const text = textData[`${selectedButton.id}Text`];
 
   const backButton = () => {
-    if (prevCategory.id === "contact-us") {
+    if (prevCategory.id === "contactUs") {
       navigate("/stadium");
     } else if (
       ["exercise", "info", "commander", "test", "facilities"].includes(prevCategory.id)
@@ -49,6 +50,7 @@ function MainText() {
             catagory={prevCategory.selectedButton.id}
           />
         )}
+        {!isExercise && (<RegularText currText={selectedButton.id} />)}
       </div>
     </div>
   );

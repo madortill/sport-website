@@ -26,9 +26,7 @@
     justify-content: center;
     align-content: center;
     gap: 1rem 8%;
-    position: relative;
-    top: 12%;
-}
+} 
 
 .secondButtons {
     display: flex;

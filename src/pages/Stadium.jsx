@@ -12,7 +12,7 @@ function Stadium() {
   const navigate = useNavigate();
 
   const handleClick = (btn) => {
-    if (btn.id === "contact-us") {
+    if (btn.id === "contactUs") {
       navigate("/main-text", {
         state: {
           prevCategory: btn,

@@ -37,5 +37,19 @@
         {"title": "אימון 2","group": "exercise", "id": "spinning2", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
         {"title": "אימון 3","group": "exercise", "id": "spinning3", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
         {"title": "אימון 4","group": "exercise", "id": "spinning4", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""}
+    ],
+    "kosherInjuryText": [
+        {"type": "title-text", "text": "סיבות לפציעות:"},
+        {"type": "mini-title", "text": "Over use שימוש יתר- "},
+        {"type": "paragraph", "text": "פציעה הנגרמת כתוצאה מכוחות בעומס תת מירבי המופעלים על איבר או רקמה לאורך זמן וגורמים לנזק ופגיעה בשלמות הרקמות השונות (לדוג': שבר מאמץ שנותר לאורך זמן)."},
+        {"type": "mini-title", "text": "Over loud העמסת יתר- "},
+        {"type": "paragraph", "text": "אירוע חד פעמי בעומס גבוה, בו מופעל כוח גדול ופתאומי מעבר ליכולת הספיגה של רקמות הגוף, הגורם לנזק ופגיעה בשלמות הרקמות בדרגות שונות (לדוג': נפילה מגובה)."},
+        {"type": "mini-title", "text": "גורמים לפציעות בקרב חיילים- "},
+        {"type": "paragraph", "text": "מוטיבציה גבוה מידי, רצון להרשים, תחרותיות, טכניקה לקויה, אייביצוע חימום מקדים, תזונה לקויה, חוסר במנוחה והתאוששות, העמסת יתר."},
+        {"type": "title-text", "text": "כיצד למנוע?"},
+        {"type": "paragraph", "text": "ניתן לטפל בפציעות אצל גורמי מקצוע, אל יותר חשוב למנוע אותן מלכתחילה. פעילות גופנית מאוד חיונית למהלך היום יום בחיינו, אך יש לנקוט אמצעים למזער נזקים ופציעות בעיקר בקרב חיילי צה\"ל."}
+    ],
+    "contactUsText": [
+        {"type": "paragraph", "text": ""}
     ]
 }
