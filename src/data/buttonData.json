@@ -30,7 +30,7 @@
         {"text": "דבר המדור", "id": "mador", "isLastButton": "true"}
     ],
     "commanderButtons1": [
-        {"text": "כושר קרבי", "id": "kravi", "isLastButton": "true"},
+        {"text": "כושר קרבי", "id": "kravi", "isLastButton": "false"},
         {"text": "כושר גופני", "id": "kosher", "isLastButton": "false"},
         {"text": "תזונה", "id": "food", "isLastButton": "false"},
         {"text": "פיזותרפיה", "id": "physiotherapy", "isLastButton": "false"},
@@ -79,6 +79,9 @@
         {"text": "אימון 2", "id" :"1","group": "exercise"},
         {"text": "אימון 3", "id" :"2","group": "exercise"},
         {"text": "אימון 4", "id" :"3","group": "exercise"}
+    ],
+    "kraviButtons2": [
+        {"text": "שיפור ריצת 5 ק\"מ", "id": "kraviRunImprove"}
     ],
     "kosherButtons2": [
         {"text": "פציעות ומניעות", "id" :"kosherInjury"},

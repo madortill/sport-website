@@ -1,6 +1,6 @@
 .text-box {
     width: 85%;
-    max-height: 65vh;
+    max-height: 65%;
     background-color: #EC8A6E;
     border: 3px solid #9C4434;
     color: #FEECD8;
@@ -14,6 +14,7 @@
     scrollbar-width: thin;
     scrollbar-color: #9C4534 #FEECD8;
     text-align: start;
+    margin-bottom: 2rem;
 }
 
 .text-box::-webkit-scrollbar {
@@ -50,12 +51,27 @@
     text-decoration: underline;
 }
 
-.title-first {
-    margin-bottom: 6rem;
+.title-main {
+    margin-bottom: 2rem;
+    color: #9C4534;
+    font-size: 3rem;
+    margin-top: 5rem;
 }
 
 .title-text {
     text-decoration: underline;
     font-weight: bold;
     font-size: 1.7rem;
+}
+
+@media (max-height: 800px) {
+    .text-box {
+        max-height: 60%;
+    }
+}
+
+@media (max-height: 700px) {
+    .text-box {
+        max-height: 55%;
+    }
 }

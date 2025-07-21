@@ -42,7 +42,7 @@ function MainText() {
       <button className="back-btn" onClick={backButton}>
         <img src={arrow} alt="back-arrow" />
       </button>
-      <h1 className="title-first">{selectedButton.text}</h1>
+      <h1 className="title-main">{selectedButton.text}</h1>
       <div className="text-box">
         {isExercise && (
           <TrainingText

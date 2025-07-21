@@ -17,6 +17,7 @@
     font-size: 3.5rem;
     position: relative;
     top: 5rem;
+    margin-bottom: 6rem;
     color: #9C4534;
 }
 
@@ -45,6 +46,7 @@
     box-sizing: border-box;
     scrollbar-width: thin;
     scrollbar-color: #9C4534 #FEECD8;
+    width: 100%;
 }
 
 .secondChoose {
