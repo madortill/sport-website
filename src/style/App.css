@@ -20,6 +20,7 @@ body {
   justify-content: center;
   align-items: flex-start;
   height: 100vh;
+  background-color: #FEECD8;
 }
 
 .app {
@@ -29,12 +30,11 @@ body {
   direction: rtl;
   width: 100%;
   max-width: 550px;
-  height:97vh;
+  height:91vh;
   background-color: #FEECD8;
   font-family: 'askim';
   overflow: hidden;
   position: relative;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 16px;
 }
 
