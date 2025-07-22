@@ -1,6 +1,11 @@
 import React from 'react';
 import textData from "../data/textData.json";
 
+const images = import.meta.glob("/src/assets/images/*", {
+  eager: true,
+  import: "default",
+});
+
 function RegularText({currText}) {
   const text = textData[`${currText}Text`];
   if (text === undefined) {
@@ -10,7 +15,8 @@ function RegularText({currText}) {
     <>
       {text.map((item, i) => {
         if (item.type === 'image') {
-          return <img key={i} className='image-text' src={item.src} alt={item.alt || ""}/>
+          const imgSrc = images[`/src/assets/images/${item.src}`];
+          return <img key={i} className='image-text' src={imgSrc} alt={item.alt || ""}/>
         } else {
           return <p  key={i} className={item.type}>{item.text}</p>
         }

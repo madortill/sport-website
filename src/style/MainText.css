@@ -12,7 +12,7 @@
     overflow-x: hidden;
     box-sizing: border-box;
     scrollbar-width: thin;
-    scrollbar-color: #9C4534 #FEECD8;
+    scrollbar-color: #9C4534 transparent;
     text-align: start;
     margin-bottom: 2rem;
 }
@@ -22,18 +22,24 @@
 }
 
 .text-box::-webkit-scrollbar-track {
-    background: #FEECD8;
+    background: transparent;
     border-radius: 10px;
 }
 
 .text-box::-webkit-scrollbar-thumb {
     background-color: #9C4534;
     border-radius: 10px;
-    border: 2px solid #FEECD8;
+    border: 2px solid transparent;
 }
 
 .text-box::-webkit-scrollbar-thumb:hover {
     background-color: #7b2f23;
+}
+
+.text-box::-webkit-scrollbar-button {
+    display: none;
+    height: 0;
+    width: 0;
 }
 
 .main-text {
@@ -74,4 +80,9 @@
     .text-box {
         max-height: 55%;
     }
+}
+
+.image-text {
+    margin: 1rem 0rem;
+    width: 100%;
 }

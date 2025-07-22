@@ -24,8 +24,6 @@
     ],
     "infoButtons1": [
         {"text": "הוראות קחצר", "id": "kahzar", "isLastButton": "true"},
-        {"text": "מאמץ עצים", "id": "effort", "isLastButton": "true"},
-        {"text": "שיטות אימון בצהל", "id": "train", "isLastButton": "true"},
         {"text": "רישום לחד\"כ", "id": "signUp", "isLastButton": "true"},
         {"text": "דבר המדור", "id": "mador", "isLastButton": "true"}
     ],
@@ -34,6 +32,7 @@
         {"text": "כושר גופני", "id": "kosher", "isLastButton": "false"},
         {"text": "תזונה", "id": "food", "isLastButton": "false"},
         {"text": "פיזותרפיה", "id": "physiotherapy", "isLastButton": "false"},
+        {"text": "שיטות אימון בצהל", "id": "train", "isLastButton": "true"},
         {"text": "עומס קור וחום", "id": "weather", "isLastButton": "true"}
     ],
     "facilitiesButtons1": [
@@ -87,12 +86,13 @@
         {"text": "פציעות ומניעות", "id" :"kosherInjury"},
         {"text": "תוכניות אימונים", "id" :"kosherPlans"},
         {"text": "איך משתפרים?", "id" :"kosherImprove"},
-        {"text": "נפח אימון", "id" :"kosherVolume"}
+        {"text": "נפח אימון", "id" :"kosherVolume"},
+        {"text": "מאמץ עצים", "id": "kosherEffort"}
     ],
     "foodButtons2": [
-        {"text": "דגשי תזונה לקראת בוחן", "id" :"0"},
-        {"text": "תזונה במהלך ניווט", "id" :"1"},
-        {"text": "חמשת העקרונות למפקד", "id" :"2"}
+        {"text": "דגשי תזונה לקראת בוחן", "id" :"foodTest"},
+        {"text": "תזונה במהלך ניווט", "id" :"foodNavigation"},
+        {"text": "חמשת העקרונות למפקד", "id" :"foodPrinciples"}
     ],
     "physiotherapyButtons2": [
         {"text": "ברך", "id" :"0"},

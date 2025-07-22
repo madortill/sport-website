@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 261 256.75">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Assistant-Regular, Assistant;
+        font-size: 13px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #ffecd9;
+      }
+
+      .cls-2 {
+        font-family: Assistant-Bold, Assistant;
+        font-size: 15px;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #ffecd9;
+        stroke-miterlimit: 10;
+        stroke-width: .9px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer_1">
+    <g>
+      <rect class="cls-3" x="1.5" y=".25" width="259" height="248"/>
+      <line class="cls-3" x1="134.5" y1=".75" x2="134.5" y2="248.75"/>
+      <line class="cls-3" x1="2.5" y1="45.25" x2="260.5" y2="43.25"/>
+      <line class="cls-3" x1="2.5" y1="74.25" x2="260.5" y2="73.25"/>
+      <line class="cls-3" x1="2.5" y1="103.25" x2="261" y2="102.25"/>
+      <line class="cls-3" x1="2.5" y1="132.25" x2="261" y2="131.25"/>
+      <line class="cls-3" x1="1.5" y1="190.25" x2="260" y2="189.25"/>
+      <text class="cls-2" transform="translate(153.01 16.62)"><tspan x="0" y="0">איך לא בוחנים </tspan><tspan x="-15.72" y="18">התקדמות באימונים</tspan></text>
+      <text class="cls-1" transform="translate(160.38 61.36)"><tspan x="0" y="0">שרירים תפוסים</tspan></text>
+      <text class="cls-1" transform="translate(8.43 61.36)"><tspan x="0" y="0">עוד סטים עם אותו משקל</tspan></text>
+      <text class="cls-1" transform="translate(4.46 90.36)"><tspan x="0" y="0">עוד חזרות עם אותו משקל</tspan></text>
+      <text class="cls-1" transform="translate(17.75 119.36)"><tspan x="0" y="0">טווח תנועה גדול יותר</tspan></text>
+      <text class="cls-1" transform="translate(3.62 148.36)"><tspan x="0" y="0">זמני מנוחה קצרים יותר בין </tspan><tspan x="24.32" y="15.6">סטים בלי פגיעה </tspan><tspan x="5.71" y="31.2">בחזרות/משקל/ טכניקה</tspan></text>
+      <text class="cls-1" transform="translate(2.66 207.03)"><tspan x="0" y="0">רמת מאמץ פחותה יותר על </tspan><tspan x="29.56" y="15.6">אותם משתנים </tspan><tspan x="-1.9" y="31.2">(משקל/חזרות/ טווח תנועה)</tspan></text>
+      <text class="cls-1" transform="translate(153.25 90.36)"><tspan x="0" y="0">כמה הזעתי באימון</tspan></text>
+      <text class="cls-2" transform="translate(26.79 16.62)"><tspan x="0" y="0">איך כן בוחנים </tspan><tspan x="-18.5" y="18">התקדמות באימונים</tspan></text>
+    </g>
+  </g>
+</svg>
