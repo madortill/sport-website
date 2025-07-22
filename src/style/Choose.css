@@ -26,7 +26,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    gap: 1rem 8%;
+    gap: 3rem 10%;
 } 
 
 .secondButtons {
@@ -78,11 +78,28 @@
     background-color: #7b2f23;
 }
 
-@media (max-height: 770px) {
+@media (max-height: 780px) {
     .secondButtons {
         max-height: 60vh;
     }
+    .firstButtons {
+        gap: 2rem 8%;
+    }
 }
+
+@media (max-height: 750px) {
+    .firstButtons {
+        gap: 1rem 8%;
+    }
+}
+
+@media (max-height: 710px) {
+    .firstButtons {
+        gap: 0rem 8%;
+    }
+}
+
+
 
 @media (max-height: 630px) {
     .secondButtons {

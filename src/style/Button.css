@@ -46,7 +46,7 @@
     max-width: 140px;
     max-height: 140px;
     font-size: 1.2rem;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 .choose2-btn {
@@ -74,6 +74,10 @@
     }
     .icon-img {
         height: 3.5rem;
+    }
+    .choose1-btn {
+        height: 8rem;
+        width: 8rem;
     }
 }
 
