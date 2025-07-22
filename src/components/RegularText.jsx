@@ -1,5 +1,6 @@
 import React from 'react';
 import textData from "../data/textData.json";
+import "../style/MainText.css";
 
 const images = import.meta.glob("/src/assets/images/*", {
   eager: true,
