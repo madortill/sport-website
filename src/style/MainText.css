@@ -1,6 +1,6 @@
 .text-box {
     width: 85%;
-    max-height: 65%;
+    max-height: 72%;
     background-color: #EC8A6E;
     border: 3px solid #9C4434;
     color: #FEECD8;
@@ -58,10 +58,10 @@
 }
 
 .title-main {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     color: #9C4534;
     font-size: 3rem;
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 
 .title-text {
@@ -72,13 +72,13 @@
 
 @media (max-height: 800px) {
     .text-box {
-        max-height: 60%;
+        max-height: 67%;
     }
 }
 
 @media (max-height: 700px) {
     .text-box {
-        max-height: 55%;
+        max-height: 62%;
     }
 }
 

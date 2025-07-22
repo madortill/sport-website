@@ -256,6 +256,30 @@
         {"type": "paragraph", "text": "• מלחים: מלפפון חמוץ (יחידה), בייגלה, זיתים,משקה איזוטוני (בהכנה עצמית)."},
         {"type": "paragraph", "text": "הדס חלימי, תזונאית פיקודית זרוע היבשה."}
     ],
+    "kneeText": [
+        {"type": "image", "src": "knee1.png", "alt": "knee1"},
+        {"type": "image", "src": "knee2.png", "alt": "knee2"}
+    ],
+    "ankleText": [
+        {"type": "image", "src": "ankle1.png", "alt": "ankle1"},
+        {"type": "image", "src": "ankle2.png", "alt": "ankle2"}
+    ],
+    "feetText": [
+        {"type": "image", "src": "feet1.png", "alt": "feet1"},
+        {"type": "image", "src": "feet2.png", "alt": "feet2"}
+    ],
+    "shouldersText": [
+        {"type": "image", "src": "shoulders1.png", "alt": "shoulders1"},
+        {"type": "image", "src": "shoulders2.png", "alt": "shoulders2"}
+    ],
+    "backText": [
+        {"type": "image", "src": "back1.png", "alt": "back1"},
+        {"type": "image", "src": "back2.png", "alt": "back2"}
+    ],
+    "achillesText": [
+        {"type": "image", "src": "achilles1.png", "alt": "achilles1"},
+        {"type": "image", "src": "achilles2.png", "alt": "achilles2"}
+    ],
     "trainText": [
         {"type": "title-text", "text": "כיצד מעבירים אימון?"},
         {"type": "mini-title", "text": "פתיחה:"},
