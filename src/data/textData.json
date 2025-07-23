@@ -305,6 +305,12 @@
         {"type": "mini-title", "text": ""},
         {"type": "paragraph", "text": ""}
     ],
+    "testMaozText": [
+        {"type": "mini-title", "text": "מבחני כש\"ג סף כניסה נחשון - מעוז:"},
+        {"type": "image", "src": "maozTable1.png", "alt": "maozTable1"},
+        {"type": "mini-title", "text": "מבחני כש\"ג סוף נחשון - מעוז:"},
+        {"type": "image", "src": "maozTable2.png", "alt": "maozTable2"}
+    ],
     "kahzarText": [
         {"type": "title-text", "text": "כניסה להוראות קחצ״ר- "},
         {"type": "paragraph", "text": "גוגל צבאי >> אתר כושר קרבי>> מחלקת כושר קרבי >> הוראות ופקודות >> הוראות קחצ״ר>> בוחרים קישור. "},
