@@ -312,8 +312,12 @@
         {"type": "image", "src": "maozTable2.png", "alt": "maozTable2"}
     ],
     "testFieldText": [
-        {"type": "image", "src": "fieldTable1.png", "alt": "fieldable1"},
-        {"type": "image", "src": "fieldTable2.png", "alt": "fieldable2"},
+        {"type": "image", "src": "fieldTable1.png", "alt": "fieldTable1"},
+        {"type": "image", "src": "fieldTable2.png", "alt": "fieldTable2"},
+        {"type": "title-text", "text": "בהצלחה!"}
+    ],
+    "testGefenText": [
+        {"type": "image", "src": "gefenTable.png", "alt": "gefenTable"},
         {"type": "title-text", "text": "בהצלחה!"}
     ],
     "kahzarText": [
