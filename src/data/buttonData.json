@@ -80,7 +80,7 @@
         {"text": "אימון 4", "id" :"3","group": "exercise"}
     ],
     "kraviButtons2": [
-        {"text": "שיפור ריצת 5 ק\"מ", "id": "kraviRunImprove"}
+        {"text": "שיפור ריצת 3 ק\"מ", "id": "kraviRunImprove"}
     ],
     "kosherButtons2": [
         {"text": "פציעות ומניעות", "id" :"kosherInjury"},

@@ -1,8 +1,8 @@
 {
     "aerobicsText": [
-        {"title": "אירובי (1)", "group": "exercise", "id": "aerobics1", "focus" : "לתמוך בפעילות מתמשכת בעצימות", "level" : "קשה", "workoutLength" : "45-50 דק'", "warmup" : "1 ק\"מ חימום", "training" : "סכ\"ה חוזרים על הסט 4 פעמים. 1. 600 מ' 90% מקצב בוחן. 2. 400 מ' 60% מקצב בוחן", "end" : "1 ק\"מ שחרור קל"},
-        {"title": "אירובי (2)","group": "exercise", "id": "aerobics2", "focus" : "לתמוך בפעילות מתמשכת בעצימות תת-מרבית, המפעילה את קבוצות שרירי השלד הגדולות.", "level" : "קשה", "workoutLength" : "45-50 דק'", "warmup" : "1.5 ק\"מ חימום", "training" : "20 דק' רצוף: 1 דק' חזק. 1 דק' קל", "end" : "1.5 ק\"מ שחרור קל"},
-        {"title": "אירובי שינוי קצב (1)","group": "exercise", "id": "aerobics-change1", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"title": "אירובי (1)", "group": "exercise", "id": "aerobics1", "focus" : "לתמוך בפעילות מתמשכת בעצימות", "level" : "קשה", "workoutLength" : "45-50 דק'", "warmup" : "1 ק\"מ חימום", "training" :  "סכ\"ה חוזרים על הסט 4 פעמים.\n1. 600 מ' 90% מקצב בוחן.\n2. 400 מ' 60% מקצב בוחן", "end" : "1 ק\"מ שחרור קל"},
+        {"title": "אירובי (2)","group": "exercise", "id": "aerobics2", "focus" : "לתמוך בפעילות מתמשכת בעצימות תת-מרבית, המפעילה את קבוצות שרירי השלד הגדולות.", "level" : "קשה", "workoutLength" : "45-50 דק'", "warmup" : "1.5 ק\"מ חימום", "training" : "20 דק' רצוף:\n 1 דק' חזק\n 1 דק' קל", "end" : "1.5 ק\"מ שחרור קל"},
+        {"title": "אירובי שינוי קצב (1)","group": "exercise", "id": "aerobics-change1", "focus" : "לתמוך בפעילות מתמשכת בעצימות תת-מרבית, המפעילה את קבוצות שרירי השלד הגדולות.", "level" : "בינוני", "workoutLength" : "40-45 דק'", "warmup" : "1 ק\"מ חימום, (קצב קל מאוד - 60%)", "training" : "2 דק' ריצה קצב קל (75%) \n דקה קצב מהיר (95%-90%) \n כפול 8 (סכ\"ה 24 דק')", "end" : "10 דק' ריצת שחרור קלה מאוד"},
         {"title": "אירובי שינוי קצב (2)","group": "exercise", "id": "aerobics-change2", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
         {"title": "אימוני ריצה - חימום","group": "exercise", "id": "run-warmup", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
         {"title": "אימוני ריצה - רצף","group": "exercise", "id": "run-constant", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
@@ -41,7 +41,7 @@
         {"type": "image", "src": "nadavTable.png", "alt": "nadavTable"}
     ],
     "kraviRunImproveText": [
-        {"type": "paragraph", "text": "מדור הכושר הכין עבורכם תוכנית אימונים לריצת 5 ק\"מ (כהמלצה בלבד) למתחילים. תוכנית אימונים בת 8 שבועות, עם שלוש ריצות בשבוע ומרחק ריצה עד 5 ק\"מ בסוף התוכנית"},
+        {"type": "paragraph", "text": "מדור הכושר הכין עבורכם תוכנית אימונים לריצת 3 ק\"מ (כהמלצה בלבד) למתחילים. תוכנית אימונים בת 8 שבועות, עם שלוש ריצות בשבוע ומרחק ריצה עד 5 ק\"מ בסוף התוכנית"},
         {"type": "title-text", "text": "שבוע 1:"},
         {"type": "paragraph", "text": "1. ריצה 1- 2 ק\"מ ריצה קלה."},
         {"type": "paragraph", "text": "2. ריצה 2- 1 ק\"מ ריצה קלה, 4 אינטרוולים של 200 מטר ריצה מהירה (עם 200 מטר הליכה בין אינטרוולים), 1 ק\"מ ריצה קלה"},
