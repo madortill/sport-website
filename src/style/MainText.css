@@ -80,6 +80,11 @@
     .text-box {
         max-height: 67%;
     }
+    .title-main {
+        margin-bottom: 0.2rem;
+        margin-top: 2rem;
+    }
+    
 }
 
 .image-text {
