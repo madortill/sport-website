@@ -48,12 +48,9 @@
         {"text": "אירובי (2)", "id": "1","group": "exercise"},
         {"text": "אירובי שינוי קצב (1)", "id": "2","group": "exercise"},
         {"text": "אירובי שינוי קצב (2)", "id": "3","group": "exercise"},
-        {"text": "אימוני נדב", "id": "nadav"},
-        {"text": "אימוני ריצה - חימום", "id": "4","group": "exercise"},
-        {"text": "אימוני ריצה - רצף", "id": "5","group": "exercise"},
-        {"text": "אימוני ריצה - מקטעים", "id": "6","group": "exercise"},
-        {"text": "אימוני ריצה - עליות", "id": "7","group": "exercise"},
-        {"text": "אימוני ריצה - שחרור", "id": "8","group": "exercise"}
+        {"text": "אירובי שינוי קצב (3)", "id": "4","group": "exercise"},
+        {"text": "אירובי שינוי קצב (4)", "id": "5","group": "exercise"},
+        {"text": "אימוני נדב", "id": "nadav"}
     ],
     "strengthButtons2": [
         {"text": "פקל מתח מקבילים", "id" :"0","group": "exercise"},
