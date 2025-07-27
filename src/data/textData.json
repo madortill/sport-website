@@ -9,24 +9,90 @@
     ],
     "strengthText": [
         {"title": "פקל מתח מקבילים","group": "exercise", "id": "parallel", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
-        {"title": "מארז 2","group": "exercise", "id": "package1", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
-        {"title": "מארז 3","group": "exercise", "id": "package2", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
-        {"title": "משקל גוף","group": "exercise", "id": "body-weight", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""}
+        {"title": "משקל גוף 1","group": "exercise", "id": "body-weight", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"title": "משקל גוף 2","group": "exercise", "id": "body-weight", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"title": "משקל גוף 3","group": "exercise", "id": "body-weight", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""}
     ],
-    "un-aerobicsText": [
+    "makbilim1Text": [
+        {"type": "paragraph", "text": "3 סטים, 2 תרגילים \n 2 דק' מנוחה בין סט לסט \n כפול 3"},
+        {"type": "mini-title", "text": "סט ראשון:"},
+        {"type": "paragraph", "text": "10 מתח רגיל\n  15 מקבילים"},
+        {"type": "mini-title", "text": "סט שני:"},
+        {"type": "paragraph", "text": "10 מתח צר \n 15 מקבילים"},
+        {"type": "mini-title", "text": "סט שלישי:"},
+        {"type": "paragraph", "text": "10 מתח רחב\n 15 מקבילים"},
+        {"type": "mini-title", "text": "תרגילים לשיפור מתח:"},
+        {"type": "paragraph", "text": "מתח עם גומיה \n מתח אוסטרלי \n מתח אקצנטרי – עליה \n קפיצה למוט + ירידה איטית"},
+        {"type": "mini-title", "text": "מהו מתח אוסטרלי? "},
+        {"type": "paragraph", "text": "עמידת מוצא של התרגיל בברכיים כפופות או ישרות, ידי ם מחזיקות במוט, שנמצא בדיוק מעל קו הכתפיים. \n התנועה היא משיכה של הגוף לכיוון המוט בתנועת חתירה."}
+    ],
+    "makbilim2Text": [
+        {"type": "paragraph", "text": "כל סט מבצעים כפול 3 \n דקה וחצי - 2 דק׳ מנוחה בין סט לסט"},
+        {"type": "mini-title", "text": "מתח -"},
+        {"type": "paragraph", "text": "1. עליות מתח - 8 \n 2. עליות מתח הפוך - 8 \n 3. מתח סטטי - חצי דקה"},
+        {"type": "mini-title", "text": "מקבילים -"},
+        {"type": "paragraph", "text": "1. ירידה למקבילים - 8 \n 2. ג׳קסונים על ספסל - 8 \n 3. מקבילים סטטי - חצי דקה"},
+        {"type": "mini-title", "text": "מתח -"},
+        {"type": "paragraph", "text": "1. התלות על המתח - חצי דקה \n 2. ברכים לחזה – 15  חזרות"},
+        {"type": "mini-title", "text": "תרגילים לשיפור מתח:"},
+        {"type": "paragraph", "text": "מתח עם גומיה \n מתח אוסטרלי \n מתח אקצנטרי – עליה \n קפיצה למוט + ירידה איטית"},
+        {"type": "mini-title", "text": "מהו מתח אוסטרלי? "},
+        {"type": "paragraph", "text": "עמידת מוצא של התרגיל בברכיים כפופות או ישרות, ידי ם מחזיקות במוט, שנמצא בדיוק מעל קו הכתפיים. \n התנועה היא משיכה של הגוף לכיוון המוט בתנועת חתירה."}
+    ],
+    "runText": [
         {"title": "אימון אנאירובי","group": "exercise", "id": "un-aerobics-train", "focus" : "היכולת של הגוף לבצע מאמץ מרבי של כ- 10-90 שניות, תוך שימור רמת העצימות, נוכח רמות גבוהות של לקטאט.", "level" : "קשה", "workoutLength" : "45-50 דק'", "warmup" : "1 ק\"מ חימום + 10X5 מתגברות", "training" : "קצב 90% מקצב בוחן, 300X8 \nמנוחה בין כל מקטע 90 שניות", "end" : "1 ק\"מ ריצת שחרור קלה"},
         {"title": "אימון עליות","group": "exercise", "id": "uphill", "focus" : "שיפור הסבולת האנאירובית, שימוש בטווחי תנועה גדולים בפלג גוף תחתון.", "level" : "קשה", "workoutLength" : "40-50 דק'", "warmup" : "15 דק ריצה קלה- עקבים לישבן, ברכיים לחזה, תרגילי אתלטיקה, מתיחות דינאמיות, ריצות מתגברות, ריצה קלה בעלייה.", "training" : "עלייה של כ100 מטר, עלייה קצב מהיר, ירידה בקצב קל, ריצה קלה. עם שינויי יציאות מהמקום. \n חלק עיקרי 8*100\n 1. היכרות של השטח 80%\n 2. 100% ספרינט\n 100.3 סקווט - ספרינט\n 4. 10 שכיבות סמיכה - ספרינט\n 5. יציאה ממצב 2\n 5.6 סמוך קום - ספרינט\n 7. יציאה מישיבה מזרחית עם עיניים עצומות\n 8. יציאה מסקווט סטטי", "end" : "10 דק' ריצת שחרור \n מתיחות"},
         {"title": "אימון אינטרוואלים","group": "exercise", "id": "intrevals", "focus" : "שיפור סבולת אירובית והספק אירובי, שיפור קצב.", "level" : "בינוני", "workoutLength" : "45-60 דק'", "warmup" : "ריצת 1 ק\"מ קלה + חימום מפרקים", "training" : "באימון אינטרוולים- בכל אינטרוול רצים קצב מקסימלי לאותו מרחק ומודדים זמן- אחר כך נחים את אותו הזמן שרצתם ויוצאים לאינטרוול הבא. \n 5×400 מטר\n מנוחה של 5 דקות\n 5×400 מטר\n", "end" : "ריצת 1 ק\"מ קלה"},
         {"title": "אימון מקטעים","group": "exercise", "id": "parts", "focus" : "שיפור סבולת אירובית והספק אירובי, שיפור קצב.", "level" : "בינוני - קשה", "workoutLength" : "שעה", "warmup" : "1.2 ק\"מ חימום + חימום דינאמי 2-3 מתגברות", "training" : "פירמידה יורדת\n 1000\n 800\n 600\n 400\n 200\n אורך המקטע יורד – המהירות עולה, 57%-95% לפי טבלת קצבים \n מנוחה – חצי זמן המקטע", "end" : "שחרור 1 ק\"מ ריצה קלה"}
     ],
     "kravmagaText": [
-        {"title": "קרב מגע","group": "exercise", "id": "kravmaga-train", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""}
+        {"type": "title-text", "text": "עקרונות כלפי תקיפה של סכין :"},
+        {"type": "mini-title", "text": "• טווח רחוק (מעל 7 מטרים): "},
+        {"type": "paragraph", "text": "נוהל מעצר חשוד/ ירי ע\"מ להסיר סכנה/ שיפור עמדה."},
+        {"type": "mini-title", "text": "• טווח בינוני (2-7 מטרים): "},
+        {"type": "paragraph", "text": "התקפה מונעת (בעיטת הדיפה, מכת נשק וכו)."},
+        {"type": "mini-title", "text": "• טווח קרוב (קצר מ-2 מטרים): "},
+        {"type": "paragraph", "text": "הגנה + התקפה."},
+        {"type": "paragraph", "text": "• הטווחים הינם דינמיים ויכולים להשתנות."},
+        {"type": "paragraph", "text": "• בכל חשד לתקיפה (ובסכין במיוחד) חשוב מאוד לשמור על טווח בטחון מהחשוד, הדבר יאפשר תגובה יעילה יותר ומיזעור את הנזק."},
+        {"type": "title-text", "text": "עקרונות חטיפת נשק מלפנים:"},
+        {"type": "paragraph", "text": "• שלב ראשון: לקבע את הנשק וננסה להציג אותו כמה שיותר קרוב לגוף."},
+        {"type": "paragraph", "text": "• שלב שני: התקפה להתקיף בדרך האפקטיבית ביותר לנקודות תורפה תוך כדי להמשיך לקבע את הנשק."},
+        {"type": "paragraph", "text": "• שלב שלישי: שיחרור של הנשק יש לבצע תלישה של הנשק במידה והחוטף אינו שחרר."},
+        {"type": "title-text", "text": "שחרורים מחניקות:"},
+        {"type": "paragraph", "text": "• שלב ראשון: פתיחת נתיב אוויר במידה ולא נצליח נדלג מהר ככל האפשר לשלב השני."},
+        {"type": "paragraph", "text": "• שלב שני: מכות לנקודות טורפה."},
+        {"type": "paragraph", "text": "• שלב שלישי: שיפור עמדה."}
     ],
     "pilatesText": [
         {"title": "אימון 1","group": "exercise", "id": "pilates1", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
         {"title": "אימון 2","group": "exercise", "id": "pilates2", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
-        {"title": "אימון 3","group": "exercise", "id": "pilates3", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
-        {"title": "אימוני ליבה ויציבות","group": "exercise", "id": "stability", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""}
+        {"title": "אימון 3","group": "exercise", "id": "pilates3", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""}
+    ],
+    "core1Text": [
+        {"type": "paragraph", "text": "סט 1 - 45 שניות עבודה 15 מנוחה \n סט 2 - 50 שניות עבודה 10 מנוחה \n סט 3 – 50 שניות עבודה 10 מנוחה"},
+        {"type": "mini-title", "text": "תחנה 1: בטן "},
+        {"type": "paragraph", "text": "1. בטן חתירה \n 2. בטן חצי אולר \n 3. בטן אופנים"},
+        {"type": "mini-title", "text": "תחנה 2 : זוקפי גו (שכיבה על הבטן)"},
+        {"type": "paragraph", "text": "תחנה 2 : זוקפי גו (שכיבה על הבטן) 1. פשיטות גו \n 2. שחית חזה \n 3. העברת חפץ מאחורי הגב"},
+        {"type": "mini-title", "text": "תחנה 3: רגליים "},
+        {"type": "paragraph", "text": "1. לאנג׳ + סקווט + לאנג׳ \n 2: הרמות אגן \n 3. סומו סקווט (פיסוק רחב)"},
+        {"type": "mini-title", "text": "תחנה 4: ידיים "},
+        {"type": "paragraph", "text": "1. שכיבות סמיכה צר \n 2. מצב 2 - כף יד נוגעת בכתף נגדית \n 3. עליות וירידות על האמות במצב 2"},
+        {"type": "mini-title", "text": "מתיחות לסיום! "},
+        {"type": "paragraph", "text": "אם קיים תרגיל שאחד החי לים לא יכול לבצע להחליף לו בתרגיל שלא מגביל אותו"}
+
+    ],
+    "core2Text": [
+        {"type": "paragraph", "text": "40 שניות עבודה 20  שניות מנוחה כל תחנה מבצעים כפול 2 "},
+        {"type": "mini-title", "text": "תחנה 1: זוקפי גו "},
+        {"type": "paragraph", "text": "פשיטות גו \n OYT \n  סטטי"},
+        {"type": "mini-title", "text": "תחנה 2: ידיים "},
+        {"type": "paragraph", "text": "שכיבות סמיכה צר רחב  \n עליה וירידה על האמות \n  פלאנק והושטת יד קדימה "},
+        {"type": "mini-title", "text": "תחנה 3: שרירי בטן "},
+        {"type": "paragraph", "text": "חצי אולר \n  בטן אופניים  \n פלאנק "},
+        {"type": "mini-title", "text": "מתיחות לסיום! "},
+        {"type": "paragraph", "text": "אם קיים תרגיל שאחד החי לים לא יכול לבצע להחליף לו בתרגיל שלא מגביל אותו"}
     ],
     "spinningText": [
         {"title": "אימון 1","group": "exercise", "id": "spinning1", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},

@@ -21,16 +21,29 @@ function SecondChoose() {
   const buttons = buttonData[`${selectedButton.id}Buttons2`];
 
   const backButton = () => {
-    navigate("/first-choose", { state: prevCategory });
+    if (selectedButton.group === 'strength') {
+      navigate("/second-choose", { state: prevCategory });
+    } else {
+      navigate("/first-choose", { state: prevCategory });
+    }
   };
 
   const handleClick = (btn) => {
-    navigate("/main-text", {
-      state: {
-        prevCategory: btnPressed,
-        selectedButton: btn,
-      },
-    });
+    if (btn.group === 'strength') {
+      navigate("/second-choose", {
+        state: {
+          prevCategory: btnPressed,
+          selectedButton: btn,
+        },
+      });
+    } else {
+      navigate("/main-text", {
+        state: {
+          prevCategory: btnPressed,
+          selectedButton: btn,
+        },
+      });
+    }
   };
 
   return (
