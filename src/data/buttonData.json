@@ -68,11 +68,19 @@
         {"text": "אימון מקטעים", "id" :"3","group": "exercise"}
     ],
     "pilatesButtons2": [
-        {"text": "אימון 1", "id" :"0","group": "exercise"},
-        {"text": "אימון 2", "id" :"1","group": "exercise"},
-        {"text": "אימון 3", "id" :"2","group": "exercise"},
         {"text": "אימון ליבה ויציבות 1", "id" :"core1"},
-        {"text": "אימון ליבה ויציבות 2", "id" :"core2"}
+        {"text": "אימון ליבה ויציבות 2", "id" :"core2"},
+        {"text": "שיטת העבודה", "id" :"pilatesMethod"},
+        {"text": "בנק תרגילים", "id" :"exerciseBank"},
+        {"text": "רמה 1 - 10 דקות", "id" :"level1Ten"},
+        {"text": "רמה 2 - 10 דקות", "id" :"level2Ten"},
+        {"text": "רמה 3 - 10 דקות", "id" :"level3Ten"},
+        {"text": "רמה 1 - 30 דקות", "id" :"level1Thirty"},
+        {"text": "רמה 2 - 30 דקות", "id" :"level2Thirty"},
+        {"text": "רמה 3 - 30 דקות", "id" :"level3Thirty"},
+        {"text": "רמה 1 - 60 דקות", "id" :"level1Hour"},
+        {"text": "רמה 2 - 60 דקות", "id" :"level2Hour"},
+        {"text": "רמה 3 - 60 דקות", "id" :"level3Hour"}
     ],
     "spinningButtons2": [
         {"text": "אימון 1", "id" :"0","group": "exercise"},
@@ -111,7 +119,7 @@
         {"text": "מארז 2 (5)", "id": "4", "group": "exercise"},
         {"text": "מארז 2 (6)", "id": "5", "group": "exercise"},
         {"text": "מארז 2 ללא ציוד", "id": "6", "group": "exercise"},
-        {"text": "מארז 3 כל הגוף (1)", "id": "7", "group": "exercise"},
+        {"text": "מארז 2 כל הגוף (1)", "id": "7", "group": "exercise"},
         {"text": "מארז 2 כל הגוף (2)", "id": "8", "group": "exercise"},
         {"text": "אימון חיזוק ויציבות", "id": "9", "group": "exercise"}
     ],
