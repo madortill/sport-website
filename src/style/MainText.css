@@ -78,12 +78,17 @@
 }
 
 @media (max-height: 700px) {
-    /* .text-box {
-        max-height: 64%;
-    } */
     .title-main {
         margin-bottom: 0.4rem;
         margin-top: 3rem;
+    }
+    
+}
+
+@media (max-height: 650px) {
+    .title-main {
+        margin-bottom: 0.4rem;
+        margin-top: 2.3rem;
     }
     
 }
