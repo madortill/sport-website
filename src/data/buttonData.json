@@ -114,5 +114,23 @@
         {"text": "מארז 3 כל הגוף (1)", "id": "7", "group": "exercise"},
         {"text": "מארז 2 כל הגוף (2)", "id": "8", "group": "exercise"},
         {"text": "אימון חיזוק ויציבות", "id": "9", "group": "exercise"}
+    ],
+    "strength3Buttons2": [
+        {"text": "מארז 3- כש\"ג בתנועה (1)", "id": "0", "group": "exercise"},
+        {"text": "מארז 3- כש\"ג בתנועה (2)", "id": "1", "group": "exercise"},
+        {"text": "מארז 3- כש\"ג בתנועה (3)", "id": "2", "group": "exercise"},
+        {"text": "אימון כושר מארז 3", "id": "3", "group": "exercise"},
+        {"text": "אימון כוח - מארז 3", "id": "4", "group": "exercise"},
+        {"text": "מארז 3 לשטח", "id": "5", "group": "exercise"},
+        {"text": "מארז 3 לפלוגה", "id": "6", "group": "exercise"},
+        {"text": "מארז 3 לצוות", "id": "7", "group": "exercise"},
+        {"text": "מארז 3 עם ציוד", "id": "8", "group": "exercise"},
+        {"text": "מארז 3 - אימון זוגות", "id": "9", "group": "exercise"},
+        {"text": "מארז 3 (1)", "id": "10", "group": "exercise"},
+        {"text": "מארז 3 (2)", "id": "11", "group": "exercise"},
+        {"text": "מארז 3 (3)", "id": "12", "group": "exercise"},
+        {"text": "מארז 3 (4)", "id": "13", "group": "exercise"},
+        {"text": "מארז 3 (5)", "id": "14", "group": "exercise"},
+        {"text": "מארז 3 (6)", "id": "15", "group": "exercise"}
     ]
 }

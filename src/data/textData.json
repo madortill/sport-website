@@ -8,10 +8,39 @@
         {"title": "אירובי שינוי קצב (4)","group": "exercise", "id": "aerobics-change4", "focus" : "לתמוך בפעילות מתמשכת בעצימות תת-מרבית, המפעילה את קבוצות שרירי השלד הגדולות.", "level" : "משתנה, אפשר להתאים לפי יכולת וקצבים.", "workoutLength" : "30-40 דק'", "warmup" : "10 דק' חימום- ריצה קלה, עקבים לישבן, ברכיים לחזה, תרגילי אתלטיקה, מתיחות דינמיות, ריצות מתגברות.", "training" : "200 מ' ריצה קצב מהיר\n 400 מ' ריצה קצב בינוני\n 200 מ' ריצה קצב מהיר\n 400 מ' קל - שחרור\n סט מרכזי כפול 3-4", "end" : "ריצת שחרור 1-1.5 ק\"מ"}
     ],
     "strengthText": [
-        {"title": "פקל מתח מקבילים","group": "exercise", "id": "parallel", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
         {"title": "משקל גוף 1","group": "exercise", "id": "body-weight", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
         {"title": "משקל גוף 2","group": "exercise", "id": "body-weight", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
         {"title": "משקל גוף 3","group": "exercise", "id": "body-weight", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""}
+    ],
+    "strength3Text": [
+        {"title": "מארז 2 (1)","group": "exercise", "id": "maaraz21", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"title": "מארז 2 (2)","group": "exercise", "id": "maaraz22", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"title": "מארז 2 (3)","group": "exercise", "id": "maaraz23", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"title": "מארז 2 (4)","group": "exercise", "id": "maaraz24", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"title": "מארז 2 (5)","group": "exercise", "id": "maaraz25", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"title": "מארז 2 (6)","group": "exercise", "id": "maaraz26", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"title": "מארז 2 ללא ציוד","group": "exercise", "id": "maaraz2no-equipment", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"title": "מארז 3 כל הגוף (1)","group": "exercise", "id": "maaraz2full1", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"title": "מארז 2 כל הגוף (2)","group": "exercise", "id": "maaraz2full2", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"title": "אימון חיזוק ויציבות","group": "exercise", "id": "strength-stabilize", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""}
+    ],
+    "strength2Text": [
+        {"title": "מארז 3- כש\"ג בתנועה (1)","group": "exercise", "id": "maaraz3move1", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"title": "מארז 3- כש\"ג בתנועה (2)","group": "exercise", "id": "maaraz3move2", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"title": "מארז 3- כש\"ג בתנועה (3)","group": "exercise", "id": "maaraz3move3", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"title": "אימון כושר מארז 3","group": "exercise", "id": "maaraz3kosher", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"title": "אימון כוח - מארז 3","group": "exercise", "id": "maaraz3strength", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"title": "מארז 3 לשטח","group": "exercise", "id": "maaraz3field", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"title": "מארז 3 לפלוגה","group": "exercise", "id": "maaraz3pluga", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"title": "מארז 3 לצוות","group": "exercise", "id": "maaraz3team", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"title": "מארז 3 עם ציוד","group": "exercise", "id": "maaraz3equipment", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"title": "מארז 3 - אימון זוגות","group": "exercise", "id": "maaraz3pairs", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"title": "מארז 3 (1)","group": "maaraz31", "id": "parallel", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"title": "מארז 3 (2)","group": "maaraz32", "id": "parallel", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"title": "מארז 3 (3)","group": "maaraz33", "id": "parallel", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"title": "מארז 3 (4)","group": "maaraz34", "id": "parallel", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"title": "מארז 3 (5)","group": "maaraz35", "id": "parallel", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""},
+        {"title": "מארז 3 (6)","group": "maaraz36", "id": "parallel", "focus" : "", "level" : "", "workoutLength" : "", "warmup" : "", "training" : "", "end" : ""}
     ],
     "makbilim1Text": [
         {"type": "paragraph", "text": "3 סטים, 2 תרגילים \n 2 דק' מנוחה בין סט לסט \n כפול 3"},
