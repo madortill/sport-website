@@ -150,8 +150,8 @@
         {"type": "image", "src": "level1Thirty-2.png", "alt": "level1Thirty-2"}
     ],
     "level2ThirtyText": [
-        {"type": "image", "src": "level2Thirty.png-1", "alt": "level2Thirty-1"},
-        {"type": "image", "src": "level2Thirty.png-2", "alt": "level2Thirty-2"}
+        {"type": "image", "src": "level2Thirty-1.png", "alt": "level2Thirty-1"},
+        {"type": "image", "src": "level2Thirty-2.png", "alt": "level2Thirty-2"}
     ],
     "level3ThirtyText": [
         {"type": "image", "src": "level3Thirty-1.png", "alt": "level3Thirty-1"},
