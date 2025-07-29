@@ -21,6 +21,14 @@
     color: #9C4534;
 }
 
+.title-facilities {
+    font-size: 3.5rem;
+    position: relative;
+    top: 4rem;
+    margin-bottom: 5rem;
+    color: #9C4534;
+}
+
 .firstButtons {
     display: flex;
     flex-wrap: wrap;
@@ -28,6 +36,14 @@
     align-content: center;
     gap: 3rem 10%;
 } 
+
+.facilitiesButtons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 0rem 10%;
+}
 
 .secondButtons {
     display: flex;
@@ -84,6 +100,11 @@
     }
     .firstButtons {
         gap: 2rem 8%;
+    }
+    .title-facilities {
+        font-size: 3rem;
+        top: 3.5rem;
+        margin-bottom: 3.5rem;
     }
 }
 

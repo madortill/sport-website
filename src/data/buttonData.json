@@ -40,8 +40,9 @@
         {"text": "בריכה", "id": "pool", "isLastButton": "true"},
         {"text": "איצטדיון", "id": "stadium", "isLastButton": "true"},
         {"text": "בחמ\"ס", "id": "bachmas", "isLastButton": "true"},
+        {"text": "אולם ספורט", "id": "sportsHall", "isLastButton": "true"},
         {"text": "מגרשי חוץ", "id": "migrash", "isLastButton": "true"},
-        {"text": "חוגים", "id": "classes", "isLastButton": "true"}
+        {"text": "חדרי אירובי וספינינג", "id": "classes", "isLastButton": "true"}
     ],
     "aerobicsButtons2": [
         {"text": "אירובי (1)", "id": "0","group": "exercise"},

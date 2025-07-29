@@ -13,6 +13,16 @@ function FirstChoose() {
   const buttons = buttonData[`${btnPressed.id}Buttons1`];
   const navigate = useNavigate();
 
+  let isFacilities = false;
+  let page = "choose1";
+  let type = "round";
+
+  if (btnPressed.id === 'facilities') {
+    isFacilities = true;
+    page = "facilities";
+    type = "facilities";
+  }
+
   const backButton = () => {
     navigate("/stadium");
   };
@@ -44,16 +54,16 @@ function FirstChoose() {
       <button className="back-btn" onClick={backButton}>
         <img src={arrow} alt="back-arrow" />
       </button>
-      <h1 className="title-first">{btnPressed.text}</h1>
-      <div className="firstButtons">
+      <h1 className={isFacilities ? "title-facilities" : "title-first"}>{btnPressed.text}</h1>
+      <div className={isFacilities ? "facilitiesButtons" : "firstButtons"}>
         {buttons.map((btn, i) => (
           <MyButton
             key={i}
             id={btn.id}
             text={btn.text}
             icon={btn.id}
-            page="choose1"
-            type="round"
+            page={page}
+            type={type}
             onClick={() => handleClick(btn)}
           />
         ))}
