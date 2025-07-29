@@ -18,6 +18,8 @@ function RegularText({currText}) {
         if (item.type === 'image') {
           const imgSrc = images[`/src/assets/images/${item.src}`];
           return <img key={i} className='image-text' src={imgSrc} alt={item.alt || ""}/>
+        } else if (item.type === 'link') {
+          return <a href={item.src}>{item.text}</a>
         } else {
           return <p  key={i} className={item.type}>{item.text}</p>
         }

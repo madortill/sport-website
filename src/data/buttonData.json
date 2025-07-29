@@ -19,12 +19,12 @@
         {"text": "נחשון - מעוז", "id": "testMaoz", "isLastButton": "true"},
         {"text": "שדה", "id": "testField", "isLastButton": "true"},
         {"text": "גפן", "id": "testGefen", "isLastButton": "true"},
-        {"text": "כש\"ג בסיסי", "id": "testBasic", "isLastButton": "true"},
-        {"text": "כש\"ג רמה 2", "id": "testLevel2", "isLastButton": "true"}
+        {"text": "כש\"ג על פי בה\"דים", "id": "testBasic", "isLastButton": "true"}
     ],
     "infoButtons1": [
         {"text": "הוראות קחצר", "id": "kahzar", "isLastButton": "true"},
         {"text": "רישום לחד\"כ", "id": "signUpGym", "isLastButton": "true"},
+        {"text": "שעות פתיחה", "id": "workHours", "isLastButton": "true"},
         {"text": "דבר המדור", "id": "mador", "isLastButton": "true"}
     ],
     "commanderButtons1": [
@@ -65,8 +65,8 @@
     "runButtons2": [
         {"text": "אימון ריצה", "id" :"0","group": "exercise"},
         {"text": "אימון עליות", "id" :"1","group": "exercise"},
-        {"text": "אימון אינטרוולים", "id" :"2","group": "exercise"},
-        {"text": "אימון מקטעים", "id" :"3","group": "exercise"}
+        {"text": "אימון מקטעים 1", "id" :"2","group": "exercise"},
+        {"text": "אימון מקטעים 2", "id" :"3","group": "exercise"}
     ],
     "pilatesButtons2": [
         {"text": "אימון ליבה ויציבות 1", "id" :"core1"},
