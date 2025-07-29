@@ -26,8 +26,8 @@ function Home() {
             <h3 className="list-text-about">גרפיקה:</h3>
             <p className="list-text-about">טוראי גילי נחום</p>
             <h3 className="list-text-about">מומחי תוכן:</h3>
-            <p className="list-text-about">ליהי מדאגית</p>
-            <p className="list-text-about">שי רמ"ד כושר</p>
+            <p className="list-text-about">סמל ליהי לנצנר</p>
+            <p className="list-text-about">סגן שי כרמלי </p>
             <h3 className="list-text-about">רמ"ד טי"ל:</h3>
             <p className="list-text-about">רס"מ עדן בן חמו</p>
             <h3 className="list-text-about">גרסה:</h3>
