@@ -19,7 +19,7 @@
         {"text": "נחשון - מעוז", "id": "testMaoz", "isLastButton": "true"},
         {"text": "שדה", "id": "testField", "isLastButton": "true"},
         {"text": "גפן", "id": "testGefen", "isLastButton": "true"},
-        {"text": "כש\"ג על פי בה\"דים", "id": "testBasic", "isLastButton": "true"}
+        {"text": "כש\"ג על פי בה\"דים", "id": "testBahad", "isLastButton": "true"}
     ],
     "infoButtons1": [
         {"text": "הוראות קחצר", "id": "kahzar", "isLastButton": "true"},
