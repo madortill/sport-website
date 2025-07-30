@@ -483,10 +483,10 @@
         {"type": "image", "src": "kosherWhatsapp.jpeg", "alt": "kosherWhatsapp"}
     ],
     "stadiumText": [
-        {"type": "image", "src": "stadium-sunset-img.jpg", "alt": "stadium"},
+        {"type": "image", "src": "stadium-sport.JPG", "alt": "stadium-sport"},
         {"type": "mini-title", "text": "באצטדיון נמצא מגרש כדורגל (מוקף ב-6 מסלולי רקורטן): "},
         {"type": "paragraph", "text": "כדורגל (מוקף ב-6 מסלולי רקורטן): המגרש משמש לאירועים וימי ספורט. \n בקריית הספורט מתחם מגרש כדורגל הכולל מגרש כדורגל תקני (תקן ההתאחדות לכדורגל) מסלול ריצה היקפי רקורטן בעל 6 מסלולים. \n במגרש טריבונה ל-1080 איש. \n המגרש משמש לאימונים של משרד א\"ג בשוטף. \n בנוסף בצד המגרש מסלול לקפיצה לרוחק ולכוח. \n המגרש משמש לכנסים ואירועים רבי משתתפים. \n במגרש תאורה ומערכת כריזה"},
-        {"type": "image", "src": "stadium-sport.JPG", "alt": "stadium-sport"}
+        {"type": "image", "src": "stadium-sunset-img.jpg", "alt": "stadium"}
     ],
     "bachmasText": [
         {"type": "image", "src": "bachmas-img.jpeg", "alt": "bachmas-img"},
