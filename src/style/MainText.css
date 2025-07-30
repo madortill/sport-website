@@ -55,7 +55,12 @@
 }
 
 .mini-title {
+    margin: 0.3rem 0rem;
     text-decoration: underline;
+}
+
+.paragraph {
+    margin: 0.3rem 0rem;
 }
 
 .title-main {
@@ -66,9 +71,15 @@
 }
 
 .title-text {
+    margin: 0.3rem 0rem;
     text-decoration: underline;
     font-weight: bold;
     font-size: 1.7rem;
+}
+
+.image-text {
+    margin: 0.5rem 0rem;
+    width: 100%;
 }
 
 @media (max-height: 800px) {
@@ -100,7 +111,3 @@
 }
 
 
-.image-text {
-    margin: 1rem 0rem;
-    width: 100%;
-}

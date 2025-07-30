@@ -74,7 +74,35 @@
         {"title": "אימון מקטעים 1","group": "exercise", "id": "parts1", "focus" : "שיפור סבולת אירובית והספק אירובי, שיפור קצב.", "level" : "בינוני", "workoutLength" : "45-60 דק'", "warmup" : "ריצת 1 ק\"מ קלה + חימום מפרקים", "training" : "באימון מקטעים- בכל מקטע רצים קצב מקסימלי לאותו מרחק ומודדים זמן- אחר כך נחים את אותו הזמן שרצתם ויוצאים למקטע הבא. \n 5×400 מטר\n מנוחה של 5 דקות\n 5×400 מטר\n", "end" : "ריצת 1 ק\"מ קלה"},
         {"title": "אימון מקטעים 2","group": "exercise", "id": "parts2", "focus" : "שיפור סבולת אירובית והספק אירובי, שיפור קצב.", "level" : "בינוני - קשה", "workoutLength" : "שעה", "warmup" : "1.2 ק\"מ חימום + חימום דינאמי 2-3 מתגברות", "training" : "פירמידה יורדת\n 1000\n 800\n 600\n 400\n 200\n אורך המקטע יורד – המהירות עולה, 57%-95% לפי טבלת קצבים \n מנוחה – חצי זמן המקטע", "end" : "שחרור 1 ק\"מ ריצה קלה"}
     ],
+    "runWarmupText": [
+        {"type": "image", "src": "runWarmup1.png", "alt": "runWarmup1"},
+        {"type": "image", "src": "runWarmup2.png", "alt": "runWarmup2"}
+    ],
+    "runSequenceText": [
+        {"type": "image", "src": "runSequence1.png", "alt": "runSequence1"},
+        {"type": "image", "src": "runSequence2.png", "alt": "runSequence2"},
+        {"type": "image", "src": "runSequence3.png", "alt": "runSequence3"},
+        {"type": "image", "src": "runSequence4.png", "alt": "runSequence4"},
+        {"type": "image", "src": "runSequence5.png", "alt": "runSequence5"},
+        {"type": "image", "src": "runSequence6.png", "alt": "runSequence6"},
+        {"type": "image", "src": "runSequence7.png", "alt": "runSequence7"}
+    ],
+    "runPartsText": [
+        {"type": "image", "src": "runParts1.png", "alt": "runParts1"},
+        {"type": "image", "src": "runParts2.png", "alt": "runParts2"},
+        {"type": "image", "src": "runParts3.png", "alt": "runParts3"},
+        {"type": "image", "src": "runParts4.png", "alt": "runParts4"},
+        {"type": "image", "src": "runParts5.png", "alt": "runParts5"}
+    ],
+    "runUphillText": [
+        {"type": "image", "src": "runUphill1.png", "alt": "runUphill1"},
+        {"type": "image", "src": "runUphill2.png", "alt": "runUphill2"}
+    ],
+    "runReleaseText": [
+        {"type": "image", "src": "runRelease.png", "alt": "runRelease1"}
+    ],
     "kravmagaText": [
+        {"type": "image", "src": "kravmaga-img.jpeg", "alt": "kravmaga-img"},
         {"type": "title-text", "text": "עקרונות כלפי תקיפה של סכין :"},
         {"type": "mini-title", "text": "• טווח רחוק (מעל 7 מטרים): "},
         {"type": "paragraph", "text": "נוהל מעצר חשוד/ ירי ע\"מ להסיר סכנה/ שיפור עמדה."},
@@ -91,8 +119,7 @@
         {"type": "title-text", "text": "שחרורים מחניקות:"},
         {"type": "paragraph", "text": "• שלב ראשון: פתיחת נתיב אוויר במידה ולא נצליח נדלג מהר ככל האפשר לשלב השני."},
         {"type": "paragraph", "text": "• שלב שני: מכות לנקודות טורפה."},
-        {"type": "paragraph", "text": "• שלב שלישי: שיפור עמדה."},
-        {"type": "image", "src": "kravmaga-img.jpeg", "alt": "kravmaga-img"}
+        {"type": "paragraph", "text": "• שלב שלישי: שיפור עמדה."}
     ],
     "core1Text": [
         {"type": "paragraph", "text": "סט 1 - 45 שניות עבודה 15 מנוחה \n סט 2 - 50 שניות עבודה 10 מנוחה \n סט 3 – 50 שניות עבודה 10 מנוחה"},
@@ -120,6 +147,7 @@
         {"type": "paragraph", "text": "אם קיים תרגיל שאחד החי לים לא יכול לבצע להחליף לו בתרגיל שלא מגביל אותו"}
     ],
     "pilatesMethodText" :[
+        {"type": "image", "src": "pilates-img.jpeg", "alt": "pilates-img"},
         {"type": "paragraph", "text": "מערכי הפילאטיס כוללים 9 מערכי אימון, המוגדרים על פי רמת קושי ומשך אימון. \n בחירת האימון המתאים תעשה בהתאם לתוכנית האימונים, לשיקולו המקצועי של המדא\"ג/קא\"ג האחראי ולתנאי השטח. \n החימום, כהכנה לאימון כולל ומובנה במערך התרגילים ובמערכים שלפניכם, במידת הצורך יש אפשרות להוסיף תרגילי חימום נוספים בהתאם לקהל היעד ולשיקול הדעת המקצועי של המדא\"ג/קא\"ג."},
         {"type": "mini-title", "text": "זמני האימון במערכים שלפניכם מחולקים על פי הזמנים הבאים:"},
         {"type": "paragraph", "text": "• 30 דק \n • 10 דק \n • 60 דק \n"},
@@ -130,8 +158,7 @@
         {"type": "paragraph", "text": "מיועדת למתאמנים המתרגלים פילאטיס או עבודה עם אלמנטים מקבילים. המתאמנים ברמה זאת צריכים להיות בעלי יכולות בסיסיות ומעלה ביכולח לגיים שרירי ליבה, בכח, בתנועתיות וגמישות בסיסית ובפלג גוף עליון ותחתון מיוצב ופעיל. \n ברמה 2 ישנה הגדלת מנופי תנועה ממצב בסיסי למצב הדורש יכולות גיוס כח,ייצוב ותנועתיות."},
         {"type": "mini-title", "text": "רמה 3 – "},
         {"type": "paragraph", "text": "רמה מתקדמת של מתאמנים השולטים בעולמות הפילאטיס, בעלי יכולות גיוס ליבה, כח, ייצוב אל מול תנועתיות וגמישות ברמה גבוהה. \n המתאמנים ברמה 3 צריכים להיות בעלי יכולות עבודה במנופי תנועה גדולים תוך שליטה מלאה במנח הגוף, בתרגיל וביישום הדגשים בו תוך שימוש נכון במרכיב הנשימה."},
-        {"type": "paragraph", "text": "בהיערכות להעברת האימון ובמהלכו על המדא\"ג/קא\"ג להפעיל שיקול דעת מקצועי בהתאמת התרגיל לאוכלוסיה הרלוונטית ולהתייחס באופן פרטני למתאמן ספציפי"},
-        {"type": "image", "src": "pilates-img.jpeg", "alt": "pilates-img"}
+        {"type": "paragraph", "text": "בהיערכות להעברת האימון ובמהלכו על המדא\"ג/קא\"ג להפעיל שיקול דעת מקצועי בהתאמת התרגיל לאוכלוסיה הרלוונטית ולהתייחס באופן פרטני למתאמן ספציפי"}
     ],
     "level1TenText": [
         {"type": "image", "src": "level1Ten.png", "alt": "level1Ten"}
