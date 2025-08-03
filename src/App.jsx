@@ -7,11 +7,11 @@ import Stadium from "./pages/Stadium";
 import FirstChoose from "./pages/FirstChoose";
 import SecondChoose from "./pages/SecondChoose";
 import MainText from "./pages/mainText";
-import Load from "./pages/load";
 
 import mifkada from "./assets/images/mifkada2.svg";
 import bahad8 from "./assets/images/bahad8-2.svg";
 import til from "./assets/images/til.svg";
+import Load from "./pages/Load";
 
 function App() {
   const [count, setCount] = useState(0);
