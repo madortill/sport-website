@@ -12,7 +12,11 @@ function Home() {
   };
 
   const nextPage = () => {
-    navigate("/stadium");
+    
+    navigate("/load"); 
+    setTimeout(() => {
+      navigate("/stadium");
+    }, 2700);
   }
 
   return (

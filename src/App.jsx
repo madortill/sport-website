@@ -7,6 +7,7 @@ import Stadium from "./pages/Stadium";
 import FirstChoose from "./pages/FirstChoose";
 import SecondChoose from "./pages/SecondChoose";
 import MainText from "./pages/mainText";
+import Load from "./pages/load";
 
 import mifkada from "./assets/images/mifkada2.svg";
 import bahad8 from "./assets/images/bahad8-2.svg";
@@ -32,6 +33,7 @@ function App() {
         <Route path="/first-choose" element={<FirstChoose />} />
         <Route path="/second-choose" element={<SecondChoose />} />
         <Route path="/main-text" element={<MainText />} />  
+        <Route path="/load" element={<Load />} />  
       </Routes>
     </div>
   );
