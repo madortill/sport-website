@@ -598,5 +598,8 @@
     "workHoursText": [
         {"type": "paragraph", "text": "היכנסו לקבוצת הווטסאפ בה מתעדכנות שעות הפעילות של חדר הכושר והבריכה:"},
         {"type": "image", "src": "kosherWhatsapp.jpeg", "alt": "kosherWhatsapp"}
+    ],
+    "madorText": [
+        {"type": "paragraph", "text": "בקרוב..."}
     ]
 }
