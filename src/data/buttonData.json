@@ -31,7 +31,7 @@
         {"text": "כושר קרבי", "id": "kravi", "isLastButton": "false"},
         {"text": "כושר גופני", "id": "kosher", "isLastButton": "false"},
         {"text": "תזונה", "id": "food", "isLastButton": "false"},
-        {"text": "פיזותרפיה", "id": "physiotherapy", "isLastButton": "false"},
+        {"text": "פיזיותרפיה", "id": "physiotherapy", "isLastButton": "false"},
         {"text": "שיטות אימון בצהל", "id": "train", "isLastButton": "true"},
         {"text": "עומס קור וחום", "id": "weather", "isLastButton": "true"}
     ],
